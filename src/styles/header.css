@@ -1,0 +1,11 @@
+header {
+    background: black;
+    color: white;
+    height: 15vh;
+    display: flex;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: auto;
+}

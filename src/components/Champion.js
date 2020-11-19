@@ -1,10 +1,10 @@
 import React from 'react';
+import '../styles/champStyle.css';
 
 function Champion(props) {
     return (
-        <div>
-            <img src={require('/img/aatrox.png')} />
-            <img src={require(props.champ.img)} alt=''/>
+        <div className="champion">
+            <img src={require(`../img/${props.champ.img}`).default} alt={props.champ.name} />
             <h2>{props.champ.name}</h2>
         </div>
     )

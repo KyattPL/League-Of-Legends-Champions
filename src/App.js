@@ -1,10 +1,14 @@
 import React from 'react'
-import GenerateChamps from './components/GenerateChamps';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <GenerateChamps />
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,186 @@
     {
         "id": 1,
         "name": "Aatrox",
-        "img": "/img/aatrox.png"
+        "img": "aatrox.png"
+    },
+    {
+        "id": 2,
+        "name": "Ahri",
+        "img": "ahri.png"
+    },
+    {
+        "id": 3,
+        "name": "Akali",
+        "img": "akali.png"
+    },
+    {
+        "id": 4,
+        "name": "Alistar",
+        "img": "alistar.png"
+    },
+    {
+        "id": 5,
+        "name": "Amumu",
+        "img": "amumu.png"
+    },
+    {
+        "id": 6,
+        "name": "Anivia",
+        "img": "anivia.png"
+    },
+    {
+        "id": 7,
+        "name": "Annie",
+        "img": "annie.png"
+    },
+    {
+        "id": 8,
+        "name": "Aphelios",
+        "img": "aphelios.png"
+    },
+    {
+        "id": 9,
+        "name": "Ashe",
+        "img": "ashe.png"
+    },
+    {
+        "id": 10,
+        "name": "Aurelion Sol",
+        "img": "aurelion_sol.png"
+    },
+    {
+        "id": 11,
+        "name": "Azir",
+        "img": "azir.png"
+    },
+    {
+        "id": 12,
+        "name": "Bard",
+        "img": "bard.png"
+    },
+    {
+        "id": 13,
+        "name": "Blitzcrank",
+        "img": "blitzcrank.png"
+    },
+    {
+        "id": 14,
+        "name": "Brand",
+        "img": "brand.png"
+    },
+    {
+        "id": 15,
+        "name": "Braum",
+        "img": "braum.png"
+    },
+    {
+        "id": 16,
+        "name": "Caitlyn",
+        "img": "caitlyn.png"
+    },
+    {
+        "id": 17,
+        "name": "Camille",
+        "img": "camille.png"
+    },
+    {
+        "id": 18,
+        "name": "Cassiopeia",
+        "img": "cassiopeia.png"
+    },
+    {
+        "id": 19,
+        "name": "Cho'Gath",
+        "img": "chogath.png"
+    },
+    {
+        "id": 20,
+        "name": "Corki",
+        "img": "corki.png"
+    },
+    {
+        "id": 21,
+        "name": "Darius",
+        "img": "darius.png"
+    },
+    {
+        "id": 22,
+        "name": "Diana",
+        "img": "diana.png"
+    },
+    {
+        "id": 23,
+        "name": "Draven",
+        "img": "draven.png"
+    },
+    {
+        "id": 24,
+        "name": "Dr. Mundo",
+        "img": "drmundo.png"
+    },
+    {
+        "id": 25,
+        "name": "Ekko",
+        "img": "ekko.png"
+    },
+    {
+        "id": 26,
+        "name": "Elise",
+        "img": "elise.png"
+    },
+    {
+        "id": 27,
+        "name": "Evelynn",
+        "img": "evelynn.png"
+    },
+    {
+        "id": 28,
+        "name": "Ezreal",
+        "img": "ezreal.png"
+    },
+    {
+        "id": 29,
+        "name": "Fiddlesticks",
+        "img": "fiddlesticks.png"
+    },
+    {
+        "id": 30,
+        "name": "Fiora",
+        "img": "fiora.png"
+    },
+    {
+        "id": 31,
+        "name": "Fizz",
+        "img": "fizz.png"
+    },
+    {
+        "id": 32,
+        "name": "Galio",
+        "img": "galio.png"
+    },
+    {
+        "id": 33,
+        "name": "Gangplank",
+        "img": "gangplank.png"
+    },
+    {
+        "id": 34,
+        "name": "Garen",
+        "img": "garen.png"
+    },
+    {
+        "id": 35,
+        "name": "Gnar",
+        "img": "gnar.png"
+    },
+    {
+        "id": 36,
+        "name": "Gragas",
+        "img": "gragas.png"
+    },
+    {
+        "id": 37,
+        "name": "Graves",
+        "img": "graves.png"
     }
 ]

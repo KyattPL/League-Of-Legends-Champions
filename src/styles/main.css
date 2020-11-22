@@ -1,5 +1,17 @@
 main {
     background-color: lightblue;
-    height: auto;
-    padding-top: 5vh;
+    height: max()
+}
+
+.searchChampBox {
+    width: 25vw;
+    height: 5vh;
+    margin-left: 37vw;
+    margin-top: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.gridBox {
+    margin-top: 10px;
 }

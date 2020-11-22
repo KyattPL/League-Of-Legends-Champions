@@ -27,3 +27,8 @@ a {
   color: lime;
   font-weight: bold;
 }
+
+.App {
+  display: grid;
+  grid-template-rows: auto minmax(80vh, auto) auto;
+}

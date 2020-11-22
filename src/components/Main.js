@@ -19,8 +19,10 @@ class Main extends Component {
     render() {
         return (
             <main>
-                <input type="text" value={this.state.inputFieldVal} onChange={this.onChangeText} />
-                <GenerateChamps specific={this.state.inputFieldVal} />
+                <input type="text" className="searchChampBox" value={this.state.inputFieldVal} onChange={this.onChangeText} />
+                <div className="gridBox">
+                    <GenerateChamps specific={this.state.inputFieldVal} />
+                </div>
             </main>
         )
     }

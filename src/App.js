@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
@@ -12,9 +12,9 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/" component={Main}/>
-          <Route path="/champ/:champName" component={ChampionPage} />
-          <Route path="/" component={ErrorPage}/>
+          <Route exact path="/League-Of-Legends-Champions/" component={Main} />
+          <Route path="/League-Of-Legends-Champions/champ/:champName" component={ChampionPage} />
+          <Route path="/League-Of-Legends-Champions/" component={ErrorPage} />
         </Switch>
         <Footer />
       </div>

@@ -1,0 +1,33 @@
+champ{}
+	lore{}
+		biography""
+		stories[""]
+	name""
+	image""
+	general{}
+		title""
+		pronouns""
+		release date""
+		cost""
+		Primary""
+		Secondary""
+	statistics{}
+		hp""
+		hpr""
+		mp""
+		mpr""
+		ms""
+		ad""
+		as""
+		rng""
+		ar""
+		mr""
+	abilities[{}]
+		...
+		key""   (or Passive)
+		name""
+		cooldown""
+		img""
+		description""
+		lvl-upgrades[""]
+		...

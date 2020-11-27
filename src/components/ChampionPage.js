@@ -1,4 +1,5 @@
 import React from 'react';
+import ChampionPageLore from './ChampionPageComps/ChampionPageLore';
 
 function ChampionPage(props) {
     let champName = props.match.params.champName;
@@ -7,6 +8,7 @@ function ChampionPage(props) {
     return (
         <div>
             <h1>Hello {champName}!</h1>
+            <ChampionPageLore lore={champObj.lore}/>
         </div>
     )
 }

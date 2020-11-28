@@ -1,0 +1,57 @@
+.button {
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.inactiveButton {
+    border: 3px solid lightgray;
+    border-bottom: 0;
+}
+
+.activeButton {
+    position: relative;
+    border: 3px solid grey;
+    border-bottom: 0;
+    box-sizing: border-box;
+}
+
+.activeButton::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+.textBox {
+    display: block;
+    padding: 10px;
+    border-left: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.loreContainer {
+    width: 100%;
+    min-width: 400px;
+    max-width: 1000px;
+    margin-top: 34px;
+}

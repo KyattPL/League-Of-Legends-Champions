@@ -50,8 +50,6 @@ li {
 }
 
 .loreContainer {
-    width: 100%;
+    width: calc(100% - 460px);
     min-width: 400px;
-    max-width: 1000px;
-    margin-top: 34px;
 }

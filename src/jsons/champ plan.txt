@@ -27,6 +27,7 @@ champ{}
 		...
 		key""   (or Passive)
 		name""
+		cost""
 		cooldown""
 		img""
 		description""

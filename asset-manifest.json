@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/League-Of-Legends-Champions/static/css/main.5ef2a6cc.chunk.css",
-    "main.js": "/League-Of-Legends-Champions/static/js/main.ffcfdab2.chunk.js",
-    "main.js.map": "/League-Of-Legends-Champions/static/js/main.ffcfdab2.chunk.js.map",
+    "main.css": "/League-Of-Legends-Champions/static/css/main.9a72fd00.chunk.css",
+    "main.js": "/League-Of-Legends-Champions/static/js/main.5ff0cd56.chunk.js",
+    "main.js.map": "/League-Of-Legends-Champions/static/js/main.5ff0cd56.chunk.js.map",
     "runtime-main.js": "/League-Of-Legends-Champions/static/js/runtime-main.530e78b7.js",
     "runtime-main.js.map": "/League-Of-Legends-Champions/static/js/runtime-main.530e78b7.js.map",
     "static/js/2.9720b08f.chunk.js": "/League-Of-Legends-Champions/static/js/2.9720b08f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a903dcce.chunk.js": "/League-Of-Legends-Champions/static/js/3.a903dcce.chunk.js",
     "static/js/3.a903dcce.chunk.js.map": "/League-Of-Legends-Champions/static/js/3.a903dcce.chunk.js.map",
     "index.html": "/League-Of-Legends-Champions/index.html",
-    "static/css/main.5ef2a6cc.chunk.css.map": "/League-Of-Legends-Champions/static/css/main.5ef2a6cc.chunk.css.map",
+    "static/css/main.9a72fd00.chunk.css.map": "/League-Of-Legends-Champions/static/css/main.9a72fd00.chunk.css.map",
     "static/js/2.9720b08f.chunk.js.LICENSE.txt": "/League-Of-Legends-Champions/static/js/2.9720b08f.chunk.js.LICENSE.txt",
     "static/media/aatrox.png": "/League-Of-Legends-Champions/static/media/aatrox.d6dbab2e.png",
     "static/media/ahri.png": "/League-Of-Legends-Champions/static/media/ahri.c67015de.png",
@@ -168,7 +168,7 @@
   "entrypoints": [
     "static/js/runtime-main.530e78b7.js",
     "static/js/2.9720b08f.chunk.js",
-    "static/css/main.5ef2a6cc.chunk.css",
-    "static/js/main.ffcfdab2.chunk.js"
+    "static/css/main.9a72fd00.chunk.css",
+    "static/js/main.5ff0cd56.chunk.js"
   ]
 }

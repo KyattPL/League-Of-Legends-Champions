@@ -18,6 +18,7 @@ function GenerateTableSection(values) {
 
 function ChampionPageGeneral(props) {
     let { name, image, general, statistics } = props.table;
+    let firstLetter = name[0].toLowerCase();
     return (
         <table className="infoBox">
             <tbody>
@@ -26,7 +27,7 @@ function ChampionPageGeneral(props) {
                 </tr>
                 <tr>
                     <td colSpan="2">
-                        <img src={require(`../../img/${image}`).default} alt={name} />
+                        <img src={require(`../../img/champs/${firstLetter}/${name}/${image}`).default} alt={name} />
                     </td>
                 </tr>
                 <tr>

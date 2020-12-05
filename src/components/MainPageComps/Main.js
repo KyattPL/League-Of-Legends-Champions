@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GenerateChamps from './GenerateChamps';
-import '../styles/main.css';
+import '../../styles/main.css';
 
 class Main extends Component {
 

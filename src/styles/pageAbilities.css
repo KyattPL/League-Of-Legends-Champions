@@ -6,4 +6,55 @@
 
 .ability {
     margin-bottom: 20px;
+    width: 70%;
+}
+
+.abilityHeader {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: lightblue;
+    width: 100%;
+}
+
+.abiltyImg {
+    width: 10%;
+    height: 10%;
+}
+
+.abilityName {
+    font-size: 32px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.abilityKey {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    width: 20%;
+}
+
+.abilityStats {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.abilityMain {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.abilityDesc {
+    border: 1px solid black;
+    padding: 10px;
+    width: 60%;
+}
+
+.abilityLvl {
+    border: 1px solid black;
+    padding: 10px;
+    width: 40%;
 }

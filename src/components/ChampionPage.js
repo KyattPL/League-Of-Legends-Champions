@@ -13,7 +13,7 @@ function ChampionPage(props) {
                 <ChampionPageLore lore={champObj.lore} />
                 <ChampionPageGeneral table={champObj.table} />
             </div>
-            <ChampionPageAbilities abilities={champObj.abilities} />
+            <ChampionPageAbilities abilities={champObj.abilities} name={champObj.table.name}/>
         </div>
     )
 }

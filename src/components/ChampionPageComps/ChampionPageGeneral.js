@@ -7,8 +7,8 @@ function GenerateTableSection(values) {
     for (const [key, value] of Object.entries(values)) {
         lines.push(
             <tr key={iter}>
-                <td>{key}</td>
-                <td>{value}</td>
+                <td className="generalTableData generalTableTextData">{key}</td>
+                <td className="generalTableData generalTableTextData">{value}</td>
             </tr>
         );
         iter++;
@@ -20,13 +20,13 @@ function ChampionPageGeneral(props) {
     let { name, image, general, statistics } = props.table;
     let firstLetter = name[0].toLowerCase();
     return (
-        <table className="infoBox">
+        <table className="infoBox generalTable">
             <tbody>
                 <tr>
                     <th className="generalTableHeader" colSpan="2">{name}</th>
                 </tr>
                 <tr>
-                    <td colSpan="2">
+                    <td colSpan="2" className="generalTableData">
                         <img src={require(`../../img/champs/${firstLetter}/${name}/${image}`).default} alt={name} />
                     </td>
                 </tr>

@@ -1,14 +1,20 @@
 .generalTableHeader {
     background-color: lightblue;
     font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-td {
+.generalTableData {
     width: 50vw;
     max-width: 200px;
 }
 
-table {
+.generalTableTextData {
+    padding: 5px;
+}
+
+.generalTable {
     border-collapse: collapse;
     border: 2px solid grey;
 }

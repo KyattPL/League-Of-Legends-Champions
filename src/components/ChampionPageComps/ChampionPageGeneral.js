@@ -7,7 +7,7 @@ function GenerateTableSection(values) {
     for (const [key, value] of Object.entries(values)) {
         lines.push(
             <tr key={iter}>
-                <td className="generalTableData generalTableTextData">{key}</td>
+                <td className="generalTableData generalTableTextData generalTableKey">{key}</td>
                 <td className="generalTableData generalTableTextData">{value}</td>
             </tr>
         );

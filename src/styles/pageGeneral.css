@@ -14,6 +14,10 @@
     padding: 5px;
 }
 
+.generalTableKey {
+    font-weight: 500;
+}
+
 .generalTable {
     border-collapse: collapse;
     border: 2px solid grey;
@@ -22,4 +26,12 @@
 .infoBox {
     margin-left: 20px;
     width: 400px;
+}
+
+@media screen and (max-width: 860px) {
+    .infoBox {
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 }

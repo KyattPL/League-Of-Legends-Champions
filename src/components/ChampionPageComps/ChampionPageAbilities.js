@@ -26,7 +26,7 @@ function GenerateAbilityStats(props) {
     if (props.hasStats) {
         let statsBox = [];
         for (const [key, value] of Object.entries(ability.stats)) {
-            statsBox.push(<span>{key + ": " + value + " "}</span>);
+            statsBox.push(<span>{key[0].toUpperCase() + key.slice(1) + ": " + value + " "}</span>);
         }
         return <tr><td className="abilityStats">{statsBox}</td></tr>;
     }

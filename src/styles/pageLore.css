@@ -50,6 +50,12 @@ li {
 }
 
 .loreContainer {
-    width: calc(100% - 460px);
+    width: calc(100% - 420px);
     min-width: 400px;
+}
+
+@media screen and (max-width: 860px) {
+    .loreContainer {
+        width: 100%;
+    }
 }

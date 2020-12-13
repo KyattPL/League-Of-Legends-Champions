@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/League-Of-Legends-Champions/static/css/main.59bdeaf3.chunk.css",
-    "main.js": "/League-Of-Legends-Champions/static/js/main.035edd49.chunk.js",
-    "main.js.map": "/League-Of-Legends-Champions/static/js/main.035edd49.chunk.js.map",
-    "runtime-main.js": "/League-Of-Legends-Champions/static/js/runtime-main.8639000b.js",
-    "runtime-main.js.map": "/League-Of-Legends-Champions/static/js/runtime-main.8639000b.js.map",
-    "static/js/2.02657847.chunk.js": "/League-Of-Legends-Champions/static/js/2.02657847.chunk.js",
-    "static/js/2.02657847.chunk.js.map": "/League-Of-Legends-Champions/static/js/2.02657847.chunk.js.map",
-    "static/js/3.6eb8c851.chunk.js": "/League-Of-Legends-Champions/static/js/3.6eb8c851.chunk.js",
-    "static/js/3.6eb8c851.chunk.js.map": "/League-Of-Legends-Champions/static/js/3.6eb8c851.chunk.js.map",
+    "main.css": "/League-Of-Legends-Champions/static/css/main.17c01a3f.chunk.css",
+    "main.js": "/League-Of-Legends-Champions/static/js/main.c8dfbe1b.chunk.js",
+    "main.js.map": "/League-Of-Legends-Champions/static/js/main.c8dfbe1b.chunk.js.map",
+    "runtime-main.js": "/League-Of-Legends-Champions/static/js/runtime-main.35576752.js",
+    "runtime-main.js.map": "/League-Of-Legends-Champions/static/js/runtime-main.35576752.js.map",
+    "static/js/2.713b5a1d.chunk.js": "/League-Of-Legends-Champions/static/js/2.713b5a1d.chunk.js",
+    "static/js/2.713b5a1d.chunk.js.map": "/League-Of-Legends-Champions/static/js/2.713b5a1d.chunk.js.map",
+    "static/js/3.6d57629a.chunk.js": "/League-Of-Legends-Champions/static/js/3.6d57629a.chunk.js",
+    "static/js/3.6d57629a.chunk.js.map": "/League-Of-Legends-Champions/static/js/3.6d57629a.chunk.js.map",
     "index.html": "/League-Of-Legends-Champions/index.html",
-    "static/css/main.59bdeaf3.chunk.css.map": "/League-Of-Legends-Champions/static/css/main.59bdeaf3.chunk.css.map",
-    "static/js/2.02657847.chunk.js.LICENSE.txt": "/League-Of-Legends-Champions/static/js/2.02657847.chunk.js.LICENSE.txt",
+    "static/css/main.17c01a3f.chunk.css.map": "/League-Of-Legends-Champions/static/css/main.17c01a3f.chunk.css.map",
+    "static/js/2.713b5a1d.chunk.js.LICENSE.txt": "/League-Of-Legends-Champions/static/js/2.713b5a1d.chunk.js.LICENSE.txt",
     "static/media/aatrox.png": "/League-Of-Legends-Champions/static/media/aatrox.d6dbab2e.png",
     "static/media/ahri.png": "/League-Of-Legends-Champions/static/media/ahri.c67015de.png",
     "static/media/akali.png": "/League-Of-Legends-Champions/static/media/akali.70dc26fc.png",
@@ -107,6 +107,7 @@
     "static/media/rakan.png": "/League-Of-Legends-Champions/static/media/rakan.2ae96d92.png",
     "static/media/rammus.png": "/League-Of-Legends-Champions/static/media/rammus.c6ad249c.png",
     "static/media/reksai.png": "/League-Of-Legends-Champions/static/media/reksai.042a6cb9.png",
+    "static/media/rell.png": "/League-Of-Legends-Champions/static/media/rell.d55cc08a.png",
     "static/media/renekton.png": "/League-Of-Legends-Champions/static/media/renekton.465267b7.png",
     "static/media/rengar.png": "/League-Of-Legends-Champions/static/media/rengar.21d83a66.png",
     "static/media/riven.png": "/League-Of-Legends-Champions/static/media/riven.7b55ca2c.png",
@@ -167,9 +168,9 @@
     "static/media/zyra.png": "/League-Of-Legends-Champions/static/media/zyra.d171f1ae.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8639000b.js",
-    "static/js/2.02657847.chunk.js",
-    "static/css/main.59bdeaf3.chunk.css",
-    "static/js/main.035edd49.chunk.js"
+    "static/js/runtime-main.35576752.js",
+    "static/js/2.713b5a1d.chunk.js",
+    "static/css/main.17c01a3f.chunk.css",
+    "static/js/main.c8dfbe1b.chunk.js"
   ]
 }

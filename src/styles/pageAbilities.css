@@ -71,12 +71,15 @@
 
 .adConversion {
     color: #ff8800;
+    font-weight: bold;
 }
 
 .apConversion {
     color: #3edf53;
+    font-weight: bold;
 }
 
 .hpConversion {
     color: #e61d1d;
+    font-weight: bold;
 }

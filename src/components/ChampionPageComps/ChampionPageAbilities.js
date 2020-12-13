@@ -10,12 +10,12 @@ function GenerateAbilityDesc(props) {
         let rows = [];
         rows.push(
             <tr key={0}>
-                <td className="abilityDesc" rowSpan={countUpgrades}>{ability["description"]}</td>
-                <td className="abilityLvl">{ability["lvl-upgrades"][0]}</td>
+                <td className="abilityDesc" rowSpan={countUpgrades} dangerouslySetInnerHTML={{__html: ability["description"]}}></td>
+                <td className="abilityLvl" dangerouslySetInnerHTML={{__html: ability["lvl-upgrades"][0]}}></td>
             </tr>
         );
         for (let i = 1; i < countUpgrades; i++) {
-            rows.push(<tr key={i}><td className="abilityLvl">{ability["lvl-upgrades"][i]}</td></tr>);
+            rows.push(<tr key={i}><td className="abilityLvl" dangerouslySetInnerHTML={{__html: ability["lvl-upgrades"][i]}}></td></tr>);
         }
         return rows;
     }
@@ -26,7 +26,7 @@ function GenerateAbilityStats(props) {
     if (props.hasStats) {
         let statsBox = [];
         for (const [key, value] of Object.entries(ability.stats)) {
-            statsBox.push(<span>{key[0].toUpperCase() + key.slice(1) + ": " + value + " "}</span>);
+            statsBox.push(<span className="importantText">{key[0].toUpperCase() + key.slice(1) + ": " + value + " "}</span>);
         }
         return <tr><td className="abilityStats">{statsBox}</td></tr>;
     }

@@ -59,3 +59,24 @@
     padding: 10px;
     width: 40%;
 }
+
+.importantText {
+    font-weight: bold;
+}
+
+.passiveActive {
+    color: #0044ff;
+    font-weight: bold;
+}
+
+.adConversion {
+    color: #ff8800;
+}
+
+.apConversion {
+    color: #3edf53;
+}
+
+.hpConversion {
+    color: #e61d1d;
+}

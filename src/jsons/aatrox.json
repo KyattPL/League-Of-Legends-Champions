@@ -33,12 +33,11 @@
             "name": "Deathbringer Stance",
             "img": "deathbringer_stance.png",
             "description": "<span class='passiveActive'>Innate:</span> Aatrox's next basic attack gains 50 extra range and deals percent Health as physical damage (max: 100 against monsters), healing Aatrox for the damage dealt (25% when stabbing minions). Cooldown is reduced by 2 seconds when Aatrox hits a champion or large monster with a spell or attack, doubled when hitting with the edge of <span class='importantText'>The Darkin Blade</span>. Multi hits only reduce the cooldown once.",
-            "stats": {
-                "cost": "No cost",
-                "cooldown": "24 - 12 seconds (based on level)"
-            },
+            "stats": [
+                "<span class='importantText'>Cooldown:</span> <abbr title='24.706 - 0.706 x level'>24 - 12s (based on level)</abbr>"
+            ],
             "lvl-upgrades": [
-                "<span class='importantText'>Physical Damage:</span> <span class='hpConversion'>[+5-12% target's max health]</span>"
+                "<span class='importantText'>Physical Damage:</span> <span class='hpConversion'>[+<abbr title='4.588 + 0.412 x level'>5-12%</abbr> target's max health]</span>"
             ]
         },
         {
@@ -46,28 +45,28 @@
             "name": "The Darkin Blade",
             "img": "the_darkin_blade.png",
             "description": "<span class='passiveActive'>Active:</span> Aatrox slams his greatsword down, dealing physical damage. This ability may be re-cast 2 additional times, each one increasing the damage by 25%. Strikes that hit with the Edge knock enemies up for 0.25s and deal 50% more damage. Deals 55% damage to minions, and the knock-up duration is doubled against monsters. ",
-            "stats": {
-                "cost": "No cost",
-                "cooldown": "14/12/10/8/6",
-                "range": "650",
-                "Area of Effect": "200"
-            },
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 14/12/10/8/6s",
+                "<span class='importantText'>Range:</span> 650",
+                "<span class='importantText'>Area of Effect:</span> 200"
+            ],
             "lvl-upgrades": [
                 "<span class='importantText'>1st Cast Damage:</span> 10 / 30 / 50 / 70 / 90 <span class='adConversion'>(+60 / 65 / 70 / 75 / 80% total)</span>",
                 "<span class='importantText'>2nd Cast Damage:</span> 12.5 / 37.5 / 62.5 / 87.5 / 112.5 <span class='adConversion'>(+75 / 81.25 / 87.5 / 93.75 / 100% total)</span>",
                 "<span class='importantText'>3rd Cast Damage:</span> 15 / 45 / 75 / 105 / 135 <span class='adConversion'>(+90 / 97.5 / 105 / 112.5 / 120% total)</span>"
-            ]        
+            ]
         },
         {
             "key": "W",
             "name": "Infernal Chains",
             "img": "infernal_chains.png",
             "description": "<span class='passiveActive'>Active:</span> Aatrox smashes the ground, dealing physical damage to the first enemy hit and slowing them by 25% for 1.5 seconds. Champions or Large Monsters have 1.5s to leave the impact area or be dragged back and damaged again. ",
-            "stats": {
-                "cost": "No cost",
-                "cooldown": "26/23/20/17/14 seconds",
-                "range": "850"
-            },
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 26/23/20/17/14s",
+                "<span class='importantText'>Range:</span> 850"
+            ],
             "lvl-upgrades": [
                 "<span class='importantText'>Physical Damage:</span> 30 / 40 / 50 / 60 / 70 <span class='adConversion'>(+40% total)</span>",
                 "<span class='importantText'>Max Damage:</span> 60 / 80 / 100 / 120 / 140 <span class='adConversion'>(+80% total)</span>"
@@ -78,11 +77,11 @@
             "name": "Umbral Dash",
             "img": "umbral_dash.png",
             "description": "<span class='passiveActive'>Passive:</span> Aatrox heals some of the non-periodic damage he deals to champions.<br /><span class='passiveActive'>Active:</span> Aatrox lunges, resetting his attack timer.",
-            "stats": {
-                "cost": "No cost",
-                "cooldown": "9/8/7/6/5",
-                "range": "300"
-            },
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 9/8/7/6/5s",
+                "<span class='importantText'>Range:</span> 300"
+            ],
             "lvl-upgrades": [
                 "Lifesteal: 20 / 22.5 / 25 / 27.5 / 30%"
             ]
@@ -92,10 +91,10 @@
             "name": "World Ender",
             "img": "world_ender.png",
             "description": "<span class='passiveActive'>Active:</span> Aatrox reveals his true demonic form for the next 10 seconds. On activation, he fears nearby enemy minions for 3 seconds and gains Movement Speed, decaying over the duration. While World Ender persists, he gains Attack Damage and receives increased self-healing. On enemy champion takedown, World Ender is extended (refreshing its effects) by 5 seconds (up to the original amount). ",
-            "stats": {
-                "cost": "No cost",
-                "cooldown": "120/100/80 seconds"
-            },
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 120/100/80s"
+            ],
             "lvl-upgrades": [
                 "Movement Speed: 60 / 80 / 100%",
                 "Bonus Attack Damage: <span class='adConversion'>(+20 / 30 / 40% total)</span>",

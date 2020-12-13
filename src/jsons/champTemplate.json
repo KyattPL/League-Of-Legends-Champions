@@ -1,9 +1,7 @@
 {
     "lore": {
         "biography": "",
-        "stories": [
-
-        ]
+        "stories": []
     },
     "table": {
         "name": "",
@@ -33,10 +31,57 @@
             "name": "",
             "img": "",
             "description": "",
-            "stats": {
-                "cost": "",
-                "cooldown": ""
-            },
+            "stats": [
+                ""
+            ],
+            "lvl-upgrades": [
+                ""
+            ]
+        },
+        {
+            "key": "",
+            "name": "",
+            "img": "",
+            "description": "",
+            "stats": [
+                ""
+            ],
+            "lvl-upgrades": [
+                ""
+            ]
+        },
+        {
+            "key": "",
+            "name": "",
+            "img": "",
+            "description": "",
+            "stats": [
+                ""
+            ],
+            "lvl-upgrades": [
+                ""
+            ]
+        },
+        {
+            "key": "",
+            "name": "",
+            "img": "",
+            "description": "",
+            "stats": [
+                ""
+            ],
+            "lvl-upgrades": [
+                ""
+            ]
+        },
+        {
+            "key": "",
+            "name": "",
+            "img": "",
+            "description": "",
+            "stats": [
+                ""
+            ],
             "lvl-upgrades": [
                 ""
             ]

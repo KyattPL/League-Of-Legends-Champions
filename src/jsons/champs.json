@@ -469,6 +469,11 @@
         "name": "Rek'Sai",
         "img": "reksai.png"
     },
+	{
+		"id": 153,
+		"name": "Rell",
+		"img": "rell.png"
+	},
     {
         "id": 95,
         "name": "Renekton",

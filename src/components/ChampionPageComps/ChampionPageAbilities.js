@@ -10,12 +10,12 @@ function GenerateAbilityDesc(props) {
         let rows = [];
         rows.push(
             <tr key={0}>
-                <td className="abilityDesc" rowSpan={countUpgrades} dangerouslySetInnerHTML={{__html: ability["description"]}}></td>
-                <td className="abilityLvl" dangerouslySetInnerHTML={{__html: ability["lvl-upgrades"][0]}}></td>
+                <td className="abilityDesc" rowSpan={countUpgrades} dangerouslySetInnerHTML={{ __html: ability["description"] }}></td>
+                <td className="abilityLvl" dangerouslySetInnerHTML={{ __html: ability["lvl-upgrades"][0] }}></td>
             </tr>
         );
         for (let i = 1; i < countUpgrades; i++) {
-            rows.push(<tr key={i}><td className="abilityLvl" dangerouslySetInnerHTML={{__html: ability["lvl-upgrades"][i]}}></td></tr>);
+            rows.push(<tr key={i}><td className="abilityLvl" dangerouslySetInnerHTML={{ __html: ability["lvl-upgrades"][i] }}></td></tr>);
         }
         return rows;
     }
@@ -25,8 +25,9 @@ function GenerateAbilityStats(props) {
     let ability = props.ability;
     if (props.hasStats) {
         let statsBox = [];
-        for (const [key, value] of Object.entries(ability.stats)) {
-            statsBox.push(<span className="importantText">{key[0].toUpperCase() + key.slice(1) + ": " + value + " "}</span>);
+        let statsNumber = ability["stats"].length;
+        for (let i = 0; i < statsNumber; i++) {
+            statsBox.push(<div dangerouslySetInnerHTML={{ __html: ability["stats"][i] }}></div>);
         }
         return <tr><td className="abilityStats">{statsBox}</td></tr>;
     }
@@ -40,7 +41,7 @@ function GenerateAbilityName(props) {
         return (
             <tr>
                 <td rowSpan="2" className="abilityImg">
-                    <img src={require(`../../img/champs/${firstLetter}/${props.champ}/${ability["img"]}`).default} alt={ability["name"]}/>
+                    <img src={require(`../../img/champs/${firstLetter}/${props.champ}/${ability["img"]}`).default} alt={ability["name"]} />
                 </td>
                 <td rowSpan="1" className="abilityName">{ability["name"]}</td>
                 <td rowSpan="2" className="abilityKey">{ability["key"]}</td>
@@ -50,7 +51,7 @@ function GenerateAbilityName(props) {
         return (
             <tr>
                 <td rowSpan="2" className="abilityImg">
-                    <img src={require(`../../img/champs/${firstLetter}/${props.champ}/${ability["img"]}`).default} alt={ability["name"]}/>
+                    <img src={require(`../../img/champs/${firstLetter}/${props.champ}/${ability["img"]}`).default} alt={ability["name"]} />
                 </td>
                 <td rowSpan="2" className="abilityName">{ability["name"]}</td>
                 <td rowSpan="2" className="abilityKey">{ability["key"]}</td>
@@ -66,8 +67,8 @@ function GenerateTable(props) {
         <div className="ability">
             <table className="abilityHeader">
                 <tbody>
-                    <GenerateAbilityName champ={props.champ} ability={ability} hasStats={hasStats}/>
-                    <GenerateAbilityStats ability={ability} hasStats={hasStats}/>
+                    <GenerateAbilityName champ={props.champ} ability={ability} hasStats={hasStats} />
+                    <GenerateAbilityStats ability={ability} hasStats={hasStats} />
                 </tbody>
             </table>
             <table className="abilityMain">
@@ -84,7 +85,7 @@ function ChampionPageAbilities(props) {
     let champName = props.name;
     return (
         <div className="abilitiesContainer">
-            {abilities.map(ab => <GenerateTable key={ab["name"]} ability={ab} champ={champName}/>)}
+            {abilities.map(ab => <GenerateTable key={ab["name"]} ability={ab} champ={champName} />)}
         </div>
     );
 }

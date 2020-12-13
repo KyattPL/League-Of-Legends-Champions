@@ -83,3 +83,11 @@
     color: #e61d1d;
     font-weight: bold;
 }
+
+.obscure {
+    color: #a96bdb;
+}
+
+.invisible {
+    color: #3ccfda;
+}

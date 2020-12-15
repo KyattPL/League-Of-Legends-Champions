@@ -31,7 +31,7 @@ class ChampionPageLore extends Component {
     }
 
     storiesButtons() {
-        if (this.state.texts.length <= 2) {
+        if (this.state.texts.length === 2) {
             return <li key="1" id="1" className="button inactiveButton" onClick={(event) => this.changePage(event, 1)}>Story</li>
         } else {
             let createdButtons = this.state.texts.slice(1).map((text, index) =>

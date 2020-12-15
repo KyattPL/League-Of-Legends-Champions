@@ -5,7 +5,7 @@ function GenerateAbilityDesc(props) {
     let ability = props.ability;
     let countUpgrades = ability["lvl-upgrades"].length;
     if (countUpgrades === 0) {
-        return <tr><td className="abilityDesc">{ability["description"]}</td></tr>;
+        return <tr><td className="abilityDesc" dangerouslySetInnerHTML={{ __html: ability["description"] }}></td></tr>;
     } else {
         let rows = [];
         rows.push(

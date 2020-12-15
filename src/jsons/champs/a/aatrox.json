@@ -34,7 +34,7 @@
             "img": "deathbringer_stance.png",
             "description": "<span class='passiveActive'>Innate:</span> Aatrox's next basic attack gains 50 extra range and deals percent Health as physical damage (max: 100 against monsters), healing Aatrox for the damage dealt (25% when stabbing minions). Cooldown is reduced by 2 seconds when Aatrox hits a champion or large monster with a spell or attack, doubled when hitting with the edge of <span class='importantText'>The Darkin Blade</span>. Multi hits only reduce the cooldown once.",
             "stats": [
-                "<span class='importantText'>Cooldown:</span> <abbr title='24.706 - 0.706 x level'>24 - 12s (based on level)</abbr>"
+                "<abbr title='Not affected by cooldown reduction'><span class='importantText'>Static Cooldown:</span></abbr> <abbr title='Formula: 24.706 - 0.706 x level'>24 - 12s (based on level)</abbr>"
             ],
             "lvl-upgrades": [
                 "<span class='importantText'>Physical Damage:</span> <span class='hpConversion'>[+<abbr title='4.588 + 0.412 x level'>5-12%</abbr> target's max health]</span>"

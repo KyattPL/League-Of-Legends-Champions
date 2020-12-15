@@ -6,14 +6,15 @@ import '../styles/championPage.css';
 
 function ChampionPage(props) {
     let champName = props.match.params.champName;
-    let champObj = require(`../jsons/${champName.toLowerCase()}.json`);
+    let firstLetter = champName[0].toLowerCase();
+    let champObj = require(`../jsons/champs/${firstLetter}/${champName.toLowerCase()}.json`);
     return (
         <div>
             <div className="container">
                 <ChampionPageLore lore={champObj.lore} />
                 <ChampionPageGeneral table={champObj.table} />
             </div>
-            <ChampionPageAbilities abilities={champObj.abilities} name={champObj.table.name}/>
+            <ChampionPageAbilities abilities={champObj.abilities} name={champObj.table.name} />
         </div>
     )
 }

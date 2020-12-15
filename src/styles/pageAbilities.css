@@ -84,10 +84,29 @@
     font-weight: bold;
 }
 
+.arConversion {
+    color: #ebbe43;
+    font-weight: bold;
+}
+
+.mrConversion {
+    color: #b053db;
+    font-weight: bold;
+}
+
 .obscure {
     color: #a96bdb;
 }
 
 .invisible {
     color: #3ccfda;
+}
+
+.stack {
+    color: brown;
+}
+
+.weaken {
+    color: #800040;
+    font-weight: bold;
 }

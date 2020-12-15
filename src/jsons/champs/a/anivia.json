@@ -1,0 +1,104 @@
+{
+    "lore": {
+        "biography": "Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demi-god born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland. Anivia guides and protects the tribes of the harsh north, who revere her as a symbol of hope, and a portent of great change. She fights with every ounce of her being, knowing that through her sacrifice, her memory will endure, and she will be reborn into a new tomorrow.<br />Anivia is an ancient Freljordian demi-god who represents the eternal cycle of life, death, and rebirth, intrinsically associated with the changing seasons. To those who venerate her, she is the elemental soul of the Freljord—a symbol of hope, and a sacred catalyst of change.<br /><br />Stories passed down through the ages often tell of how she rewards those who are kind and humble. On the rare occasion a mortal glimpses her—or at least claims to—she is described as a noble spirit-bird of ice, with glittering wings that span the heavens, and a piercing cry that can be heard over even the fiercest storm.<br /><br />The songs of the nomadic Notai tribe tell how Anivia’s birth first brought snow into the world. When she burst from her giant egg of ice, tiny pieces of it were hurled into the sky, and it has fallen as snow ever since. And, according to the sagas of the Mourncrow tribe, the frigid winds that scour the Freljord originate from the first beats of her wings.<br /><br />Indeed, the full power of winter is Anivia’s to command, and to those who seek to desecrate her homeland, she is a bitter foe. When roused to anger, she can cleave fortresses and mountains, and her screech can summon blizzards cold enough to shatter steel.<br /><br />One of the most enduring and respected beliefs is that Anivia’s greatest gift to the Freljord was the creation of True Ice. Infused with elemental magic, this unmelting substance is pure and potent, and the greatest seers and ice-mages have long strived to use shards of True Ice to amplify their might, while weapons that have even a tiny sliver forged into them are deadly beyond belief.<br /><br />When mortals first arrived in the Freljord, Anivia welcomed them. Seeing that they could not withstand the cold, she guided them to secluded valleys where they could shelter, become established, and slowly harden themselves against the elements. She nurtured and watched over them for those first precarious centuries—and they, in turn, worshipped her.<br /><br />Anivia hoped that these newly arrived tribes would remain unified in defending the Freljord from outsiders… but slowly, infighting and blood-feuds became all too common, making an invasion inevitable. According to legend, a greedy southern king marched his warriors up through the mountains, seeking to claim dominion over the northlands and shackle their wild magic for himself. So enraged was Anivia at the outsiders’ hubris and disrespect that she blasted them with a snowstorm that lasted a century and a day. Scattered standing stones can still be seen on the Scouring Plain, which the locals claim are all that remain of that ancient army.<br /><br />Other tales include the Avarosan legend of Ulla Shatter-Spear, an Iceborn warmother who was favored by Anivia for saving a young hawk from a rimefang wolf. Across her lifetime, the Cryophoenix protected Ulla from harm, and when she finally fell in battle, having witnessed almost a hundred winters, it is said that Anivia welcomed her with wings spread wide.<br /><br />If all these legends are true, then Anivia must have witnessed the rise and fall of countless mortal civilizations. While there are still some dwindling remnants of those earlier times, most have long been forgotten, and buried beneath millennia of ice.<br /><br />But death cannot touch Anivia herself. The sagas speak of how she has been struck down and slain a handful of times throughout history, though she is always reborn—for as long as the Freljord exists, her soul is immortal. While it may be hundreds or even thousands of years before she rises again, each rebirth coincides with the dawning of a new era. Thus, her appearance, while regarded as a wondrous blessing, is often the harbinger of something terrible on the horizon.<br /><br />Once, it is said, she sacrificed herself against a march of towering Balestriders. Anvia knew she could not slay these colossal creatures, and so she plunged into the ice beneath their feet, shattering her own body in order to entomb them.<br /><br />Recently, some claim Anivia has hatched from the egg once more, and that she has appeared before the new leader of the Avarosans—the Warmother Ashe. In her, perhaps Anivia sees one who may be able to finally reunite the Freljord.<br /><br />Yet if the Cryophoenix has indeed returned, as more and more shamans and spirit walkers proclaim, then it must be asked: what great threat has she come to face?",
+        "stories": []
+    },
+    "table": {
+        "name": "Anivia",
+        "image": "anivia.png",
+        "general": {
+            "Title": "The Cryophoenix",
+            "Pronouns": "She/Her",
+            "Release date": "July 10th, 2009",
+            "Cost": "3150 790",
+            "Primary": "Mage",
+            "Secondary": "Support"
+        },
+        "statistics": {
+            "HP": "480 (+82)",
+            "HPR": "5.5 (+0.55)",
+            "MP": "495 (+45)",
+            "MPR": "8 (+0.8)",
+            "MS": "325",
+            "AD": "51.376 (+3.2)",
+            "AS": "0.625 (+1.68%)",
+            "RNG": "600",
+            "AR": "21.22 (+4)",
+            "MR": "30 (+0.5)"
+        }
+    },
+    "abilities": [
+        {
+            "key": "Passive",
+            "name": "Rebirth",
+            "img": "rebirth.png",
+            "description": "<span class='passiveActive'>Innate:</span> Upon dying, Anivia will revert into an egg and will get an armor and magic resistance modifier. If the egg can survive for 6 seconds, she is reborn with the same percentage of health that her egg had left.",
+            "stats": [
+                "<span class='importantText'>Static Cooldown:</span> 240s"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Stat Modifier:</span> <abbr title='Levels 1 / 5 / 8 / 12 / 15'>-40 / -25 / -10 / +5 / +20</abbr> AR and MR"
+            ]
+        },
+        {
+            "key": "Q",
+            "name": "Flash Frost",
+            "img": "flash_frost.png",
+            "description": "<span class='passiveActive'>Active:</span> A massive chunk of ice flies toward target location, dealing magic damage. At the end of its range or if Anivia activates the spell again, the missile detonates, dealing magic damage in a small area and stunning enemies. Enemies damaged by Flash Frost are also slowed for 3 seconds.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> 80 / 85 / 90 / 95 / 100 Mana",
+                "<span class='importantText'>Cooldown:</span> 240s",
+                "<span class='importantText'>Range:</span> 1075",
+                "<span class='importantText'>Area of Effect:</span> 125 | 225"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Pass Damage:</span> 50 / 70 / 90 / 110 / 130 <span class='apConversion'>(+25%)</span>",
+                "<span class='importantText'>Stun Duration:</span> 1.1 / 1.2 / 1.3 / 1.4 / 1.5s",
+                "<span class='importantText'>Slow:</span> 20 / 30 / 40% (based on <span class='importantText'>Glacial Storm</span>'s rank)"
+            ]
+        },
+        {
+            "key": "W",
+            "name": "Crystallize",
+            "img": "crystallize.png",
+            "description": "<span class='passiveActive'>Active:</span> Anivia condenses the moisture in the air into an impenetrable wall of ice to block the movement of all units. The wall lasts 5 seconds before it melts.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> 70 Mana",
+                "<span class='importantText'>Cooldown:</span> 17s",
+                "<span class='importantText'>Range:</span> 1000"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Wall Length:</span> 400 / 500 / 600 / 700 / 800"
+            ]
+        },
+        {
+            "key": "E",
+            "name": "Frostbite",
+            "img": "frostbite.png",
+            "description": "<span class='passiveActive'>Active:</span> Anivia blasts her target with a freezing wind, dealing magic damage. If the target has been slowed by <span class='importantText'>Flash Frost</span> or a fully formed <span class='importantText'>Glacial Storm</span>, they take double damage.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> 40 Mana",
+                "<span class='importantText'>Cooldown:</span> 4s",
+                "<span class='importantText'>Range:</span> 650"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Magic Damage:</span> 60 / 90 / 120 / 150 / 180 <span class='apConversion'>(+60%)</span>"
+            ]
+        },
+        {
+            "key": "R",
+            "name": "Glacial Storm",
+            "img": "glacial_storm.png",
+            "description": "<span class='passiveActive'>Toggle:</span> Anivia calls forth a driving rain of ice and hail that increases in size over 1.5 seconds, dealing magic damage per second to targets, slowing their Movement Speed. When the Glacial Storm is fully formed, it slows targets' Movement Speed by an additional 50% and does 300% damage instead.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> 60 Mana + 35 / 45 / 55 per second",
+                "<span class='importantText'>Cooldown:</span> 4 / 2.5 / 1s",
+                "<span class='importantText'>Range:</span> 750",
+                "<span class='importantText'>Area of Effect:</span> 200-400"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Magic Damage:</span> 30 / 45 / 60 <span class='apConversion'>(+12.5%)</span>"
+            ]
+        }
+    ]
+}

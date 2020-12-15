@@ -1,0 +1,14 @@
+{
+    "HP": "Health_icon.png",
+    "HPR": "Health_regeneration_icon.png",
+    "MS": "Movement_speed_icon.png",
+    "AD": "Attack_damage_icon.png",
+    "AS": "Attack_speed_icon.png",
+    "RNG": "Range_icon.png",
+    "AR": "Armor_icon.png",
+    "MR": "Magic_resistance_icon.png",
+    "MP": "Mana_icon.png",
+    "MPR": "Mana_regeneration_icon.png",
+    "EP": "Energy_icon.png",
+    "EPR": "Energy_regeneration_icon.png"
+}

@@ -18,6 +18,16 @@
     font-weight: 500;
 }
 
+.logo {
+    display: inline;
+    margin: 0 3px 0;
+}
+
+.statLogo {
+    display: inline;
+    margin-right: 3px;
+}
+
 .generalTable {
     border-collapse: collapse;
     border: 2px solid grey;

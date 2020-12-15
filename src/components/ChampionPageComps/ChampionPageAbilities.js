@@ -27,7 +27,7 @@ function GenerateAbilityStats(props) {
         let statsBox = [];
         let statsNumber = ability["stats"].length;
         for (let i = 0; i < statsNumber; i++) {
-            statsBox.push(<div dangerouslySetInnerHTML={{ __html: ability["stats"][i] }}></div>);
+            statsBox.push(<div key={i} dangerouslySetInnerHTML={{ __html: ability["stats"][i] }}></div>);
         }
         return <tr><td className="abilityStats">{statsBox}</td></tr>;
     }

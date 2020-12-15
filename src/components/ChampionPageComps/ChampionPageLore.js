@@ -32,10 +32,10 @@ class ChampionPageLore extends Component {
 
     storiesButtons() {
         if (this.state.texts.length <= 2) {
-            return <li id="1" className="button inactiveButton" onClick={(event) => this.changePage(event, 1)}>Story</li>
+            return <li key="1" id="1" className="button inactiveButton" onClick={(event) => this.changePage(event, 1)}>Story</li>
         } else {
             let createdButtons = this.state.texts.slice(1).map((text, index) =>
-                <li id={index + 1} className="button inactiveButton" onClick={(event) => this.changePage(event, index + 1)}>Story #{index + 1}</li>);
+                <li key={index + 1} id={index + 1} className="button inactiveButton" onClick={(event) => this.changePage(event, index + 1)}>Story #{index + 1}</li>);
             return (
                 createdButtons
             );
@@ -51,7 +51,7 @@ class ChampionPageLore extends Component {
                 </ul>
                 <div className="textBox">
                     <div className="text">
-                        <p>{this.state.texts[this.state.currText]}</p>
+                        <p dangerouslySetInnerHTML={{ __html: this.state.texts[this.state.currText] }}></p>
                     </div>
                 </div>
             </div >

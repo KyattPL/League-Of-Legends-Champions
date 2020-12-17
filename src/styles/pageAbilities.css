@@ -94,6 +94,11 @@
     font-weight: bold;
 }
 
+.asConversion {
+    color: #94e42b;
+    font-weight: bold;
+}
+
 .obscure {
     color: #a96bdb;
 }

@@ -58,36 +58,41 @@
             "key": "W",
             "name": "Overdrive",
             "img": "overdrive.png",
-            "description": "",
+            "description": "<span class='passiveActive'>Active:</span> Blitzcrank supercharges himself, gaining Movement Speed and Attack Speed for 5 seconds. This Movement Speed bonus decays over the duration. When Overdrive ends, Blitzcrank's Movement Speed is slowed by 30% for 1.5 seconds. ",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 75 Mana",
+                "<span class='importantText'>Cooldown:</span> 15s"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Movement Speed:</span> 70 / 75 / 80 / 85 / 90%",
+                "<span class='importantText'>Attack Speed:</span> 30 / 38 / 46 / 54 / 62%"
             ]
         },
         {
             "key": "E",
             "name": "Power Fist",
             "img": "power_fist.png",
-            "description": "",
+            "description": "<span class='passiveActive'>Active:</span> Blitzcrank charges up his fist to make his next attack deal <span class='adConversion'>(+200% total)</span> and knock his target up in the air.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 25 Mana",
+                "<span class='importantText'>Cooldown:</span> 9 / 8 / 7 / 6 / 5s",
+                "<span class='importantText'>Range:</span> 300"
             ],
-            "lvl-upgrades": [
-                ""
-            ]
+            "lvl-upgrades": []
         },
         {
             "key": "R",
             "name": "Static Field",
             "img": "static_field.png",
-            "description": "",
+            "description": "<span class='passiveActive'>Passive:</span> While this spell is available, lightning charges Blitzcrank's firsts, marking enemies. After 1 second, they are shocked dealing magic damage. This stacks up to 3 times.<br /><span class='passiveActive'>Active:</span> Destroys shields on nearby enemies, deals magic damage, and silences surrounding enemy units for 0.75 seconds. ",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 150 Mana",
+                "<span class='importantText'>Cooldown:</span> 60 / 40 / 20s",
+                "<span class='importantText'>Area of Effect:</span> 600"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Passive Magic Damage:</span> 50 / 100 / 150 <span class='apConversion'>(+30%)</span>",
+                "<span class='importantText'>Active Magic Damage:</span> 250 / 375 / 500 <span class='apConversion'>(+100%)</span>"
             ]
         }
     ]

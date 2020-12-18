@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/League-Of-Legends-Champions/static/css/main.49cbc7c1.chunk.css",
-    "main.js": "/League-Of-Legends-Champions/static/js/main.a8cae4dc.chunk.js",
-    "main.js.map": "/League-Of-Legends-Champions/static/js/main.a8cae4dc.chunk.js.map",
-    "runtime-main.js": "/League-Of-Legends-Champions/static/js/runtime-main.b282ebd5.js",
-    "runtime-main.js.map": "/League-Of-Legends-Champions/static/js/runtime-main.b282ebd5.js.map",
+    "main.js": "/League-Of-Legends-Champions/static/js/main.9c7494d6.chunk.js",
+    "main.js.map": "/League-Of-Legends-Champions/static/js/main.9c7494d6.chunk.js.map",
+    "runtime-main.js": "/League-Of-Legends-Champions/static/js/runtime-main.ac00255f.js",
+    "runtime-main.js.map": "/League-Of-Legends-Champions/static/js/runtime-main.ac00255f.js.map",
     "static/js/2.1bbe643d.chunk.js": "/League-Of-Legends-Champions/static/js/2.1bbe643d.chunk.js",
     "static/js/2.1bbe643d.chunk.js.map": "/League-Of-Legends-Champions/static/js/2.1bbe643d.chunk.js.map",
-    "static/js/3.04bd96bf.chunk.js": "/League-Of-Legends-Champions/static/js/3.04bd96bf.chunk.js",
-    "static/js/3.04bd96bf.chunk.js.map": "/League-Of-Legends-Champions/static/js/3.04bd96bf.chunk.js.map",
+    "static/js/3.476999ef.chunk.js": "/League-Of-Legends-Champions/static/js/3.476999ef.chunk.js",
+    "static/js/3.476999ef.chunk.js.map": "/League-Of-Legends-Champions/static/js/3.476999ef.chunk.js.map",
     "index.html": "/League-Of-Legends-Champions/index.html",
     "static/css/main.49cbc7c1.chunk.css.map": "/League-Of-Legends-Champions/static/css/main.49cbc7c1.chunk.css.map",
     "static/js/2.1bbe643d.chunk.js.LICENSE.txt": "/League-Of-Legends-Champions/static/js/2.1bbe643d.chunk.js.LICENSE.txt",
@@ -174,6 +174,7 @@
     "static/media/volibear.png": "/League-Of-Legends-Champions/static/media/volibear.3277e5ae.png",
     "static/media/volley.png": "/League-Of-Legends-Champions/static/media/volley.6546a174.png",
     "static/media/warwick.png": "/League-Of-Legends-Champions/static/media/warwick.27441298.png",
+    "static/media/winters_bite.png": "/League-Of-Legends-Champions/static/media/winters_bite.67f424be.png",
     "static/media/wukong.png": "/League-Of-Legends-Champions/static/media/wukong.ed8bdecd.png",
     "static/media/xayah.png": "/League-Of-Legends-Champions/static/media/xayah.d40a0052.png",
     "static/media/xerath.png": "/League-Of-Legends-Champions/static/media/xerath.677d3f2f.png",
@@ -190,9 +191,9 @@
     "static/media/zyra.png": "/League-Of-Legends-Champions/static/media/zyra.d171f1ae.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b282ebd5.js",
+    "static/js/runtime-main.ac00255f.js",
     "static/js/2.1bbe643d.chunk.js",
     "static/css/main.49cbc7c1.chunk.css",
-    "static/js/main.a8cae4dc.chunk.js"
+    "static/js/main.9c7494d6.chunk.js"
   ]
 }

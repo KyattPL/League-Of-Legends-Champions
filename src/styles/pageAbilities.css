@@ -104,6 +104,11 @@
     font-weight: bold;
 }
 
+.manaConversion {
+    color: #006eff;
+    font-weight: bold;
+}
+
 .obscure {
     color: #a96bdb;
 }

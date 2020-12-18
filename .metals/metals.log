@@ -2,3 +2,4 @@
 2020.12.18 10:45:17 INFO  time: initialize in 3.87s
 2020.12.18 10:45:19 WARN  Build server is not auto-connectable.
 2020.12.18 10:45:19 WARN  no build tool detected in workspace 'C:\Users\siema\Documents\WWW-dev\League-Of-Legends-Champions'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.18 11:56:53 INFO  shutting down Metals

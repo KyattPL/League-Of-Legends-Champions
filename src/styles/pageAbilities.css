@@ -99,6 +99,11 @@
     font-weight: bold;
 }
 
+.critConversion {
+    color: #c05a07;
+    font-weight: bold;
+}
+
 .obscure {
     color: #a96bdb;
 }

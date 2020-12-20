@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/main.44e2f1d8.chunk.css",
-    "main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.b3f7c7c1.chunk.js",
-    "main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.b3f7c7c1.chunk.js.map",
-    "runtime-main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.48b8a9ac.js",
-    "runtime-main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.48b8a9ac.js.map",
+    "main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.918d8b53.chunk.js",
+    "main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.918d8b53.chunk.js.map",
+    "runtime-main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.4b59e14e.js",
+    "runtime-main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.4b59e14e.js.map",
     "static/js/2.cae99819.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/2.cae99819.chunk.js",
     "static/js/2.cae99819.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/2.cae99819.chunk.js.map",
     "static/css/3.d5c5f65b.chunk.css": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/3.d5c5f65b.chunk.css",
-    "static/js/3.db73a45f.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.db73a45f.chunk.js",
-    "static/js/3.db73a45f.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.db73a45f.chunk.js.map",
-    "static/js/4.a59aeecf.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.a59aeecf.chunk.js",
-    "static/js/4.a59aeecf.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.a59aeecf.chunk.js.map",
+    "static/js/3.6e73834c.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.6e73834c.chunk.js",
+    "static/js/3.6e73834c.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.6e73834c.chunk.js.map",
+    "static/js/4.cbdfff4a.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.cbdfff4a.chunk.js",
+    "static/js/4.cbdfff4a.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.cbdfff4a.chunk.js.map",
     "static/js/5.87aea313.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/5.87aea313.chunk.js",
     "static/js/5.87aea313.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/5.87aea313.chunk.js.map",
     "static/js/6.abe9b593.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/6.abe9b593.chunk.js",
@@ -54,17 +54,19 @@
     "static/js/24.612ba3bf.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/24.612ba3bf.chunk.js.map",
     "static/js/25.0d38472c.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/25.0d38472c.chunk.js",
     "static/js/25.0d38472c.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/25.0d38472c.chunk.js.map",
-    "static/js/26.adf1e7fb.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/26.adf1e7fb.chunk.js",
-    "static/js/26.adf1e7fb.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/26.adf1e7fb.chunk.js.map",
+    "static/js/26.b76648aa.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/26.b76648aa.chunk.js",
+    "static/js/26.b76648aa.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/26.b76648aa.chunk.js.map",
+    "static/js/27.f04485cf.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/27.f04485cf.chunk.js",
+    "static/js/27.f04485cf.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/27.f04485cf.chunk.js.map",
     "index.html": "https://kyattpl.github.io/League-Of-Legends-Champions/index.html",
     "static/css/3.d5c5f65b.chunk.css.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/3.d5c5f65b.chunk.css.map",
     "static/css/main.44e2f1d8.chunk.css.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/main.44e2f1d8.chunk.css.map",
     "static/js/2.cae99819.chunk.js.LICENSE.txt": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/2.cae99819.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.48b8a9ac.js",
+    "static/js/runtime-main.4b59e14e.js",
     "static/js/2.cae99819.chunk.js",
     "static/css/main.44e2f1d8.chunk.css",
-    "static/js/main.b3f7c7c1.chunk.js"
+    "static/js/main.918d8b53.chunk.js"
   ]
 }

@@ -7,11 +7,10 @@ import '../styles/championPage.css';
 class ChampionPage extends React.Component {
     constructor(props) {
         super(props);
-        console.log(props);
         this.state = {
             name: props.match.params.champName,
             firstLetter: props.match.params.champName[0].toLowerCase(),
-            champObj: require(`../jsons/champs/a/aatrox.json`)
+            champObj: null
         }
     }
 
@@ -25,10 +24,10 @@ class ChampionPage extends React.Component {
         return (
             <div>
                 <div className="container">
-                    <ChampionPageLore lore={this.state.champObj.lore} />
-                    <ChampionPageGeneral table={this.state.champObj.table} />
+                    {this.state.champObj && <ChampionPageLore lore={this.state.champObj.lore} />}
+                    {this.state.champObj && <ChampionPageGeneral table={this.state.champObj.table} />}
                 </div>
-                <ChampionPageAbilities abilities={this.state.champObj.abilities} name={this.state.champObj.table.name} />
+                {this.state.champObj && <ChampionPageAbilities abilities={this.state.champObj.abilities} name={this.state.champObj.table.name} />}
             </div>
         );
     }

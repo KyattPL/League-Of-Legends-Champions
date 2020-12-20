@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
         return (
             <header className="headerContainer">
-                <Link to={`/League-Of-Legends-Champions/`} className="homeButton">
+                <Link to={`/`} className="homeButton">
                     Home
                 </Link>
                 <div className="empty1"></div>

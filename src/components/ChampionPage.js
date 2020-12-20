@@ -4,19 +4,34 @@ import ChampionPageGeneral from './ChampionPageComps/ChampionPageGeneral';
 import ChampionPageAbilities from './ChampionPageComps/ChampionPageAbilities';
 import '../styles/championPage.css';
 
-function ChampionPage(props) {
-    let champName = props.match.params.champName;
-    let firstLetter = champName[0].toLowerCase();
-    let champObj = require(`../jsons/champs/${firstLetter}/${champName.toLowerCase()}.json`);
-    return (
-        <div>
-            <div className="container">
-                <ChampionPageLore lore={champObj.lore} />
-                <ChampionPageGeneral table={champObj.table} />
+class ChampionPage extends React.Component {
+    constructor(props) {
+        super(props);
+        console.log(props);
+        this.state = {
+            name: props.match.params.champName,
+            firstLetter: props.match.params.champName[0].toLowerCase(),
+            champObj: require(`../jsons/champs/a/aatrox.json`)
+        }
+    }
+
+    componentDidMount() {
+        import(`../jsons/champs/${this.state.firstLetter}/${this.state.name.toLowerCase()}.json`).then((champ) => {
+            this.setState({ champObj: champ });
+        });
+    }
+
+    render() {
+        return (
+            <div>
+                <div className="container">
+                    <ChampionPageLore lore={this.state.champObj.lore} />
+                    <ChampionPageGeneral table={this.state.champObj.table} />
+                </div>
+                <ChampionPageAbilities abilities={this.state.champObj.abilities} name={this.state.champObj.table.name} />
             </div>
-            <ChampionPageAbilities abilities={champObj.abilities} name={champObj.table.name} />
-        </div>
-    )
+        );
+    }
 }
 
 export default ChampionPage;

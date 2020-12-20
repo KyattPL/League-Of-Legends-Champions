@@ -41,7 +41,7 @@ function GenerateAbilityName(props) {
         return (
             <tr>
                 <td rowSpan="2" className="abilityImg">
-                    <img src={require(`../../img/champs/${firstLetter}/${props.champ}/${ability["img"]}`).default} alt={ability["name"]} />
+                    <img src={process.env.PUBLIC_URL + `/img/champs/${firstLetter}/${props.champ}/${ability["img"]}`} alt={ability["name"]} />
                 </td>
                 <td rowSpan="1" className="abilityName">{ability["name"]}</td>
                 <td rowSpan="2" className="abilityKey">{ability["key"]}</td>
@@ -51,7 +51,7 @@ function GenerateAbilityName(props) {
         return (
             <tr>
                 <td rowSpan="2" className="abilityImg">
-                    <img src={require(`../../img/champs/${firstLetter}/${props.champ}/${ability["img"]}`).default} alt={ability["name"]} />
+                    <img src={process.env.PUBLIC_URL + `/img/champs/${firstLetter}/${props.champ}/${ability["img"]}`} alt={ability["name"]} />
                 </td>
                 <td rowSpan="2" className="abilityName">{ability["name"]}</td>
                 <td rowSpan="2" className="abilityKey">{ability["key"]}</td>

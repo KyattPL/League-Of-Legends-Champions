@@ -21,9 +21,9 @@ function GenerateTableSection(values, isStats) {
                         <td className="generalTableData generalTableTextData generalTableKey">{key}</td>
                         <td className="generalTableData generalTableTextData">
                             {price[0]}
-                            <img className="logo" src={require(`../../img/misc/BEPoints.png`).default} alt="BE logo" />
+                            <img className="logo" src={process.env.PUBLIC_URL + `/img/misc/BEPoints.png`} alt="BE logo" />
                             {price[1]}
-                            <img className="logo" src={require(`../../img/misc/RPoints.png`).default} alt="RP logo" />
+                            <img className="logo" src={process.env.PUBLIC_URL + `/img/misc/RPoints.png`} alt="RP logo" />
                         </td>
                     </tr>
                 )
@@ -31,13 +31,13 @@ function GenerateTableSection(values, isStats) {
             iter++;
         }
     } else {
-        let statsJSON = require(`../../jsons/statsNameToImg.json`);
+        const statsJSON = require(`../../jsons/statsNameToImg.json`);
         let iter = 1;
         for (const [key, value] of Object.entries(values)) {
             lines.push(
                 <tr key={iter}>
                     <td className="generalTableData generalTableTextData generalTableKey">
-                        <img className="statLogo" src={require(`../../img/misc/${statsJSON[key]}`).default} alt="stat icon" />
+                        <img className="statLogo" src={process.env.PUBLIC_URL + `/img/misc/${statsJSON[key]}`} alt="stat icon" />
                         {key}
                     </td>
                     <td className="generalTableData generalTableTextData">{value}</td>
@@ -60,7 +60,7 @@ function ChampionPageGeneral(props) {
                 </tr>
                 <tr>
                     <td colSpan="2" className="generalTableData">
-                        <img src={require(`../../img/champs/${firstLetter}/${name}/${image}`).default} alt={name} />
+                        <img src={process.env.PUBLIC_URL + `/img/champs/${firstLetter}/${name}/${image}`} alt={name} />
                     </td>
                 </tr>
                 <tr>

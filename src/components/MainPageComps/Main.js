@@ -13,7 +13,6 @@ class Main extends Component {
 
     onChangeText = (event) => {
         this.setState({ inputFieldVal: event.target.value })
-        console.log("works")
     }
 
     render() {

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/main.41392641.chunk.css",
-    "main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.413fa5ae.chunk.js",
-    "main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.413fa5ae.chunk.js.map",
-    "runtime-main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.76bbedd1.js",
-    "runtime-main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.76bbedd1.js.map",
+    "main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.0a8a20ba.chunk.js",
+    "main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/main.0a8a20ba.chunk.js.map",
+    "runtime-main.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.40548331.js",
+    "runtime-main.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/runtime-main.40548331.js.map",
     "static/js/2.cae99819.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/2.cae99819.chunk.js",
     "static/js/2.cae99819.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/2.cae99819.chunk.js.map",
     "static/css/3.c657dc75.chunk.css": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/3.c657dc75.chunk.css",
-    "static/js/3.fec38933.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.fec38933.chunk.js",
-    "static/js/3.fec38933.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.fec38933.chunk.js.map",
-    "static/js/4.cbdfff4a.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.cbdfff4a.chunk.js",
-    "static/js/4.cbdfff4a.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.cbdfff4a.chunk.js.map",
+    "static/js/3.c7751aa6.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.c7751aa6.chunk.js",
+    "static/js/3.c7751aa6.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/3.c7751aa6.chunk.js.map",
+    "static/js/4.53d025bf.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.53d025bf.chunk.js",
+    "static/js/4.53d025bf.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/4.53d025bf.chunk.js.map",
     "static/js/5.73f6a7c9.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/5.73f6a7c9.chunk.js",
     "static/js/5.73f6a7c9.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/5.73f6a7c9.chunk.js.map",
     "static/js/6.4ecc773e.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/6.4ecc773e.chunk.js",
@@ -60,15 +60,17 @@
     "static/js/27.3107ac58.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/27.3107ac58.chunk.js.map",
     "static/js/28.0a7a7561.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/28.0a7a7561.chunk.js",
     "static/js/28.0a7a7561.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/28.0a7a7561.chunk.js.map",
+    "static/js/29.0bc46341.chunk.js": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/29.0bc46341.chunk.js",
+    "static/js/29.0bc46341.chunk.js.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/29.0bc46341.chunk.js.map",
     "index.html": "https://kyattpl.github.io/League-Of-Legends-Champions/index.html",
     "static/css/3.c657dc75.chunk.css.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/3.c657dc75.chunk.css.map",
     "static/css/main.41392641.chunk.css.map": "https://kyattpl.github.io/League-Of-Legends-Champions/static/css/main.41392641.chunk.css.map",
     "static/js/2.cae99819.chunk.js.LICENSE.txt": "https://kyattpl.github.io/League-Of-Legends-Champions/static/js/2.cae99819.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.76bbedd1.js",
+    "static/js/runtime-main.40548331.js",
     "static/js/2.cae99819.chunk.js",
     "static/css/main.41392641.chunk.css",
-    "static/js/main.413fa5ae.chunk.js"
+    "static/js/main.0a8a20ba.chunk.js"
   ]
 }

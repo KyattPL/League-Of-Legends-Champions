@@ -21,13 +21,18 @@ class ChampionPage extends React.Component {
     }
 
     render() {
+        let hasMisc = false;
+        if (this.state.champObj) {
+            hasMisc = 'misc' in this.state.champObj;
+        }
         return (
             <div>
                 <div className="container">
                     {this.state.champObj && <ChampionPageLore lore={this.state.champObj.lore} />}
                     {this.state.champObj && <ChampionPageGeneral table={this.state.champObj.table} />}
                 </div>
-                {this.state.champObj && <ChampionPageAbilities abilities={this.state.champObj.abilities} name={this.state.champObj.table.name} />}
+                {this.state.champObj && hasMisc && <ChampionPageAbilities abilities={this.state.champObj.abilities} name={this.state.champObj.table.name} misc={this.state.champObj.misc} />}
+                {this.state.champObj && !hasMisc && <ChampionPageAbilities abilities={this.state.champObj.abilities} name={this.state.champObj.table.name} />}
             </div>
         );
     }

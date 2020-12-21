@@ -1,4 +1,12 @@
 {
+    "misc": {
+        "changesForm": "true",
+        "howManyForms": "2",
+        "forms": [
+            "Human",
+            "Spider"
+        ]
+    },
     "lore": {
         "biography": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep in the Immortal Bastion of Noxus. Once she was mortal, the mistress of a once-powerful house, but the bite of a vile spider god transformed her into something beautiful, undying, and utterly inhuman. To maintain her eternal youth, Elise preys upon the innocent, and there are few who can resist her seductions.<br /><br />The Lady Elise was born many centuries ago to House Kythera, an old and powerful family of Noxus, and swiftly learned the power of beauty to influence the weak-minded. When she came of age, she plotted to marry the scion of House Zaavan to augment her house’s power. The match was opposed by many within Zaavan, but Elise beguiled her intended husband and manipulated her detractors to secure a betrothal.<br /><br />As Elise had planned, her influence upon her new husband proved considerable. House Zaavan grew stronger, which in turn saw House Kythera’s star rise. Elise’s husband was the face of his house, but those in the know understood who truly wielded power. At first, Elise’s husband tolerated this, but as the years went by, his discontent festered as he became alight joke among Noxian families.<br /><br />Eventually, his resentment grew ever more rancorous until one night over a typically frosty dinner, he revealed he had tainted her wine with a disfiguring poison. He offered his terms; withdraw from society and stay out of his way as he took up the reins of power and he would give her the antidote. Refuse, and he would watch her die slowly and painfully. With every breath the poison did its evil work, dissolving her flesh and bone from the inside out. Believing he would have the antidote somewhere about his person, Elise palmed a sharp knife and played the role of remorseful wife to the hilt. She wept and begged her husband to forgive her, using every wile in her arsenal to approach without alerting him to her deadly intent. All the while, the poison was wracking her body, discoloring her flesh with grotesque lesions and filling her limbs with agony.<br /><br />When Elise reached her husband, he realized - too late - just how badly he had underestimated her disdain. She leapt upon him and rammed the knife through his heart, twisting the blade slowly as she watched him die. Elise found and drank the antidote, but the damage was done. Her face was monstrously disfigured with grotesque weals and necrotic flesh, like a cadaver given hideous animation.<br /><br />Elise was now mistress of House Zaavan, and such was the nature of Noxian politics that she was lauded for cutting a weakness from the empire. Yet so entwined were her particular notions of beauty and power that she retreated from public life and took to wearing a face-covering veil. Eschewing daylight, and turning away all allies and petitioners from her door, her once powerful house began a slow descent into obscurity. Elise roamed the empty halls of her palace in isolation and became a denizen of darkness, only ever venturing beyond its high walls at night.<br /><br />On one of her midnight wanderings, Elise was approached by another veiled woman, who pressed a waxen sigil of a Black Rose into her palm and whispered that the Pale Woman would greatly value her talents. Elise pressed on, but as she walked away, the woman’s voice echoed after her with the promise of being made whole again. However absurd she told herself it was, vanity and the hope of her beauty being renewed drove Elise to investigate further. She prowled the streets for weeks until she saw the Black Rose sigil again, etched onto a shadowed archway leading into the catacombs beneath Noxus.<br /><br />Following the hidden sigils brought her to the Black Rose, a secret society where those who dabbled in the darker powers of magic shared hidden knowledge and secrets. Elise became a regular visitor, going unveiled among its members and swiftly establishing a close rapport with the Pale Woman, an agelessly beautiful individual of great power. Elise embraced the society’s ways, but always sought the gift she had been promised; her beauty made whole again.<br /><br />The Pale Woman spoke of a haunted place known as the Shadow Isles and a serpent-bladed athame belonging to one of her acolytes who had been slain in the lair of a voracious spider god. The dagger was imbued with powerful magic, and if it was returned to her, then she would use its magic to restore Elise’s beauty. Elise immediately accepted and led a group of Black Rose devotees to the shunned island, knowing there would be a blood price to pay for such a prize.<br /><br />Elise found a desperate, debt-ridden captain willing to bear her and her fellow pilgrims across the ocean. The ship sailed for weeks until a craggy island loomed from seething banks of black mist. Elise came ashore on a beach of ashen sand and led her followers deep into the island’s haunted depths like lambs to the slaughter. Many were stolen away by spiteful wraiths, but half a dozen remained by the time they reached the web-wreathed lair of the Spider God.<br /><br />A bloated, monstrous creature of chitin and fangs erupted from the darkness and feasted on the screaming men and women. As they died or were swept up in streams of web, Elise saw the dagger the Pale Woman sought - held in the grip of a desiccated corpse. She snatched it up as the Spider God sank its envenomed fangs into her shoulder. Elise fell forward and the blade of the athame pierced her heart, its powerful magic flooding her and mixing with the lethal venom to wreak terrible changes on her body. Elise was transformed as the magically-empowered venom renewed her flesh, transforming it into a form even more beautiful than before. Her scars vanished and her skin became flawless and porcelain smooth, but the god’s venom had ambitions of its own. Elise’s back writhed with undulant motion as a host of arachnoid legs pushed their way from her flesh.<br /><br />Elise rose, breathless with the agony of her transformation, to find the Spider God looming above her. Shared power flowed between them, and both immediately sensed how they might benefit from this unexpected symbiosis. Elise returned to her ship, untroubled by the island’s spirits, and set sail for Noxus. When her ship arrived at the docks in the dead of night, Elise was the only living thing aboard.<br /><br />Elise returned the athame to the leader of the Black Rose, though the Pale Woman warned that the magic maintaining her restored beauty would eventually fade. The two sealed a pact; the Black Rose would provide Elise with acolytes to offer up to the Spider God, and she in turn, would return any artifacts of power she discovered upon the isles.<br /><br />Elise once again took up residence in the neglected halls of House Zaavan, becoming known as a beautiful yet unreachable recluse. None suspected her true nature, yet fanciful rumors cling to her, wild tales of her immortal beauty and a terrifying creature said to lair high in her dilapidated, dust-wreathed palace.<br /><br />Centuries have passed since her first voyage to the Shadow Isles, and whenever Elise sees streaks of white in her hair or crow’s feet at her eyes, she ventures forth to cull easily swayed souls from the Black Rose and set sail for the isle of black mists. None who accompany her ever return, and with each voyage, it is said she is renewed and invigorated, bearing another ancient artifact for the Pale Woman. ",
         "stories": [
@@ -34,6 +42,7 @@
     },
     "abilities": [
         {
+            "form": "1",
             "key": "Passive",
             "name": "Spider Queen",
             "img": "spider_queen.png",
@@ -46,6 +55,7 @@
             ]
         },
         {
+            "form": "2",
             "key": "Passive",
             "name": "Spider Queen",
             "img": "spider_queen.png",
@@ -59,6 +69,7 @@
             ]
         },
         {
+            "form": "1",
             "key": "Q",
             "name": "Neurotoxin",
             "img": "neurotoxin.png",
@@ -74,6 +85,7 @@
             ]
         },
         {
+            "form": "2",
             "key": "Q",
             "name": "Venomous Bite",
             "img": "venomous_bite.png",

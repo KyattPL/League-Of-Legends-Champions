@@ -1,4 +1,15 @@
 {
+    "misc": {
+        "changesForm": "true",
+        "howManyForms": "5",
+        "forms": [
+            "Calibrum",
+            "Severum",
+            "Gravitum",
+            "Infernum",
+            "Crescendum"
+        ]
+    },
     "lore": {
         "biography": "Emerging from moonlight’s shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by his sister Alune in her distant temple sanctuary from where she pushes an arsenal of moonstone weapons into his hands. For as long as the moon shines overhead, Aphelios will never be alone.<br />The moon looms over the towering slopes of Mount Targon, distant, yet impossibly close.<br /><br />Born during a rare lunar convergence, when the physical moon was eclipsed by its reflection in the spirit realm, Aphelios and his twin sister, Alune, were celebrated as children of destiny by those of Targon’s Lunari faith.<br /><br />Mirroring the celestial event that heralded their birth, the two children knew they had been marked by fate—Aphelios physically gifted like the moon of stone, and Alune magically like its spiritual reflection. Zealously devout, they grew up within a faith of mystery, reflection, and discovery, and embraced darkness not just out of belief, but as the only thing that could keep them safe.<br /><br />The Solari who ruled Targon considered the Lunari heretics, driving them into hiding until most forgot the Lunari even existed. The Lunari were left to the shadows, dwelling in temples and caves far from the Solaris’ sight.<br /><br />The pressure to be exemplary weighed heavily upon Aphelios. He practiced tirelessly with mystical moonstone blades, spilling his own blood in training so he could spill that of others to protect the faith. Intense and vulnerable, he bonded deeply with his sister in lieu of any other friendships.<br /><br />While Aphelios was sent on increasingly dangerous missions to protect the Lunari, Alune trained separately as a seer, using her luminous magic to reveal hidden pathways and truths by the moon’s light. In time, her tasks required her to leave the temple where they were raised.<br /><br />Without Alune, Aphelios’ faith wavered.<br /><br />Desperate for purpose, he undertook a ceremonial journey into darkness where Lunari were said to discover their paths—their orbits. He followed the moon’s light to a pool where rare noctum flowers bloomed beneath the water’s surface. Though poisonous, the flowers could be distilled into a liquid that opened him to the night’s power.<br /><br />Drinking the noctum’s essence, Aphelios felt so much pain that it numbed him to everything else.<br /><br />Soon after, an ancient temple, the Marus Omegnum, began to come into phase from the spirit realm for the first time in centuries. Lunari from across the mountain gathered, emerging from hiding to witness the balance of power shift as celestial cycles in the heavens turned.<br /><br />The fortress accepted only one occupant, gifted in magic, each time it appeared. This time it would be Alune, her orbit guiding her to the temple. Aphelios, usually asking for nothing, requested to attend the event.<br /><br />But as the fortress passed through the veil in a luminous display of magic, a harsher radiance filled the night. Somehow, the Lunari had been discovered even as the celestial cycles turned in their favor.<br /><br />An army of Solari descended upon them.<br /><br />All seemed lost, the Solari purging the Lunari heresy with fire and steel. Even Aphelios was beaten, his moonstone blades shattered on the ground, blood spilling from his lips as he reached for the noctum…<br /><br />But as the battle raged, Alune traveled deeper into the temple—and when she reached its heart, her full potential unlocked. Through the noctum, Aphelios could feel Alune’s power embrace him… and he could hear her voice. With a whisper, she pushed magic into his hands—a replacement for his blades solidifying into moonstone.<br /><br />Like the moon of stone and its spiritual reflection, Aphelios’s skill and Alune’s magic converged.<br /><br />Those Solari would not live to see the sun again.<br /><br />As her power flared, Alune pushed the temple, and herself within, back into the spirit realm where it would remain safe from the Solari. From inside, amplified by the temple’s focusing power, Alune was able to project her magic anywhere, so long as it found a focus—like the poison coursing through Aphelios’ veins.<br /><br />Only now did they understand their destiny. Aphelios would hollow himself out with pain, but would become a conduit for the moon’s power. Alune would live alone, isolated in her fortress, but she would guide her brother, able to see through his eyes.<br /><br />Together, they would be the weapon the Lunari needed, bound by pain and sacrifice. Only apart could they be together—their souls brushing across the veil, distant, yet impossibly close, converging into something they could not understand.<br /><br />To protect the survivors of the attack who retreated back into the shadows of the mountain, Aphelios’ training as an assassin has been given reach by Alune’s magic—his blades now an arsenal of mystical weapons, perfected by Alune over the course of many missions together.<br /><br />Now that the power balance of Targon is shifting, and the Solari know the Lunari still endure, Aphelios and Alune are needed more than ever.",
         "stories": [
@@ -42,6 +53,7 @@
             ]
         },
         {
+            "form": "1",
             "key": "RMB",
             "name": "Calibrum, The Rifle",
             "img": "calibrum_the_rifle.png",
@@ -53,6 +65,7 @@
             "lvl-upgrades": []
         },
         {
+            "form": "1",
             "key": "Q",
             "name": "Moonshot",
             "img": "moonshot.png",
@@ -67,6 +80,7 @@
             ]
         },
         {
+            "form": "2",
             "key": "RMB",
             "name": "Severum, the Scythe Pistol",
             "img": "severum_the_scythe_pistol.png",
@@ -80,6 +94,7 @@
             ]
         },
         {
+            "form": "2",
             "key": "Q",
             "name": "Onslaught",
             "img": "onslaught.png",
@@ -94,6 +109,7 @@
             ]
         },
         {
+            "form": "3",
             "key": "RMB",
             "name": "Gravitum, the Cannon",
             "img": "gravitum_the_cannon.png",
@@ -104,6 +120,7 @@
             "lvl-upgrades": []
         },
         {
+            "form": "3",
             "key": "Q",
             "name": "Binding Eclipse",
             "img": "binding_eclipse.png",
@@ -118,6 +135,7 @@
             ]
         },
         {
+            "form": "4",
             "key": "RMB",
             "name": "Infernum, the Flamethrower",
             "img": "infernum_the_flamethrower.png",
@@ -131,6 +149,7 @@
             ]
         },
         {
+            "form": "4",
             "key": "Q",
             "name": "Duskwave",
             "img": "duskwave.png",
@@ -145,6 +164,7 @@
             ]
         },
         {
+            "form": "5",
             "key": "RMB",
             "name": "Crescendum, the Chakram",
             "img": "crescendum_the_chakram.png",
@@ -157,6 +177,7 @@
             ]
         },
         {
+            "form": "5",
             "key": "Q",
             "name": "Sentry",
             "img": "sentry.png",
@@ -183,7 +204,7 @@
             "key": "R",
             "name": "Moonlight Vigil",
             "img": "moonlight_vigil.png",
-            "description": "<span class='importantText'>Active:</span> Send forward a moon bomb that explodes on the first enemy hit, damaging nearby enemies. Then, Aphelios follows up with enhanced basic attacks from his main-hand weapon against all enemies caught in the explosion. These basic attacks can critically strike. Aphelios automatically learns this ability at level 6, and this automatically levels up at levels 11 and 16.<br /><span class='importantText'>Calibrum:</span> Follow-up attacks mark all enemies hit. These marks deal higher damage when consumed.<br /><span class='importantText'>Severum:</span> Grants Aphelios a flat heal if he hits an enemy.</span><br /><span class='importantText'>Gravitum:</span> Follow-up attacks apply a 99% slow and <span class='importantText'>Binding Eclipse</span> will root for 1.25 seconds.<br /><span class='importantText'>Infernum:</span> Follow-up attacks create circles around enemies hit instead of damage cones behind them, dealing 78% of the damage.<br /><span class='importantText'>Crescendum:</span> If Moonlight Vigil hits fewer than four enemies, its follow up attacks still increase the damage of Crescendum's basic attacks as if at least four enemies were hit.",
+            "description": "<span class='passiveActive'>Active:</span> Send forward a moon bomb that explodes on the first enemy hit, damaging nearby enemies. Then, Aphelios follows up with enhanced basic attacks from his main-hand weapon against all enemies caught in the explosion. These basic attacks can critically strike. Aphelios automatically learns this ability at level 6, and this automatically levels up at levels 11 and 16.<br /><span class='importantText'>Calibrum:</span> Follow-up attacks mark all enemies hit. These marks deal higher damage when consumed.<br /><span class='importantText'>Severum:</span> Grants Aphelios a flat heal if he hits an enemy.</span><br /><span class='importantText'>Gravitum:</span> Follow-up attacks apply a 99% slow and <span class='importantText'>Binding Eclipse</span> will root for 1.25 seconds.<br /><span class='importantText'>Infernum:</span> Follow-up attacks create circles around enemies hit instead of damage cones behind them, dealing 78% of the damage.<br /><span class='importantText'>Crescendum:</span> If Moonlight Vigil hits fewer than four enemies, its follow up attacks still increase the damage of Crescendum's basic attacks as if at least four enemies were hit.",
             "stats": [
                 "<span class='importantText'>Cost:</span> 100 Mana",
                 "<span class='importantText'>Range:</span> 1300",

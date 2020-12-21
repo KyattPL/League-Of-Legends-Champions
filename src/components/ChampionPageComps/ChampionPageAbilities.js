@@ -63,8 +63,18 @@ function GenerateAbilityName(props) {
 function GenerateTable(props) {
     let ability = props.ability;
     let hasStats = Object.keys(ability.stats).length > 0;
+    let containerClass = "ability";
+    if (props.misc != null) {
+        if ('changesForm' in props.misc && 'form' in ability) {
+            if (ability.form === "1") {
+                containerClass = "ability 1";
+            } else {
+                containerClass = `ability ${ability.form} off`;
+            }
+        }
+    }
     return (
-        <div className="ability">
+        <div className={containerClass}>
             <table className="abilityHeader">
                 <tbody>
                     <GenerateAbilityName champ={props.champ} ability={ability} hasStats={hasStats} />
@@ -80,12 +90,42 @@ function GenerateTable(props) {
     )
 }
 
+function changeForm(event, howManyForms) {
+    let toShow = document.getElementsByClassName(`ability ${event.target.id} off`);
+    for (let i = toShow.length - 1; i >= 0; i--) {
+        toShow[i].className = `ability ${event.target.id}`;
+    }
+    for (let i = 1; i <= howManyForms; i++) {
+        if (`${i}` !== event.target.id) {
+            let toHide = document.getElementsByClassName(`ability ${i}`);
+            for (let j = toHide.length - 1; j >= 0; j--) {
+                toHide[j].className = `ability ${i} off`;
+            }
+        }
+    }
+}
+
 function ChampionPageAbilities(props) {
     let abilities = props.abilities;
     let champName = props.name;
+    let misc = null;
+    if ('misc' in props) {
+        misc = props.misc;
+    }
+    let additionalTable = null;
+    if (misc != null) {
+        if ("changesForm" in misc) {
+            let buttons = [];
+            for (let i = 0; i < misc.howManyForms; i++) {
+                buttons.push(<li key={i} className="formsButton" id={i + 1} onClick={(event) => changeForm(event, misc.howManyForms)}>{misc.forms[i]}</li>);
+            }
+            additionalTable = <ul className="formsTable">{buttons}</ul>;
+        }
+    }
     return (
         <div className="abilitiesContainer">
-            {abilities.map(ab => <GenerateTable key={ab["name"]} ability={ab} champ={champName} />)}
+            {additionalTable}
+            {abilities.map((ab, index) => <GenerateTable key={index} ability={ab} champ={champName} misc={misc} />)}
         </div>
     );
 }

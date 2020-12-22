@@ -99,6 +99,96 @@
             "lvl-upgrades": [
                 "<span class='importantText'>Magic Damage:</span> 70 / 110 / 150 / 190 / 230 <span class='hpConversion'>[+4%</span> <span class='apConversion'>(+3%)</span> <span class='hpConversion'>target's missing]</span>"
             ]
+        },
+        {
+            "form": "1",
+            "key": "W",
+            "name": "Volatile Spiderling",
+            "img": "volatile_spiderling.png",
+            "description": "<span class='passiveActive'>Active:</span> Summons a venom-gorged Spiderling that moves to target location and explodes, dealing magic damage when it nears an enemy or after 3 seconds.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> 60 / 70 / 80 / 90 / 100 Mana",
+                "<span class='importantText'>Cooldown:</span> 12s",
+                "<span class='importantText'>Range:</span> 950",
+                "<span class='importantText'>Form:</span> Human"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Magic Damage:</span> 60 / 105 / 150 / 195 / 240 <span class='apConversion'>(+3%)</span>"
+            ]
+        },
+        {
+            "form": "2",
+            "key": "W",
+            "name": "Skittering Frenzy",
+            "img": "skittering_frenzy.png",
+            "description": "<span class='passiveActive'>Passive:</span> Spiderlings gain bonus Attack Speed.<br /><span class='passiveActive'>Active:</span> Increases Attack Speed for Elise and her Spiderlings for 3 seconds.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 10s",
+                "<span class='importantText'>Form:</span> Spider"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Attack Speed:</span> 60 / 80 / 100 / 120 / 140%",
+                "<span class='importantText'>Passive Spiderling Attack Speed:</span> 5 / 10 / 15 / 20 / 25%"
+            ]
+        },
+        {
+            "form": "1",
+            "key": "E",
+            "name": "Cocoon",
+            "img": "cocoon.png",
+            "description": "<span class='passiveActive'>Active:</span> Stuns and reveals the first enemy it hits and reveals them if they are not stealthed.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> 50 Mana",
+                "<span class='importantText'>Cooldown:</span> 12 / 11.5 / 11 / 10.5 / 10s",
+                "<span class='importantText'>Range:</span> 1075",
+                "<span class='importantText'>Form:</span> Human"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Stun:</span> 1.6 / 1.7 / 1.8 / 1.9 / 2s"
+            ]
+        },
+        {
+            "form": "2",
+            "key": "E",
+            "name": "Rappel",
+            "img": "rappel.png",
+            "description": "<span class='passiveActive'>On Enemy Cast:</span> Elise and her Spiderlings lift up into the air and then descend upon the target enemy. After descending, the bonus damage and healing from Spider Queen is increased for 5 seconds.<br /><span class='passiveActive'>On Ground Cast:</span> Elise and her Spiderlings lift up into the air, becoming untargetable for 2 seconds. She can then cast Rappel again to descend upon a nearby enemy.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 22 / 21 / 20 / 19 / 18s",
+                "<span class='importantText'>Range:</span> 750",
+                "<span class='importantText'>Form:</span> Spider"
+            ],
+            "lvl-upgrades": [
+                "<span class='importantText'>Bonus Damage and Healing:</span> 40 / 55 / 70 / 85 / 100%"
+            ]
+        },
+        {
+            "form": "1",
+            "key": "R",
+            "name": "Spider Form",
+            "img": "spider_form.png",
+            "description": "<span class='passiveActive'>Active:</span> Elise transforms into a menacing spider, sacrificing 425 attack range in exchange for 25 Movement Speed and access to arachnid abilities. All dormant Spiderlings are awakened and will attack nearby foes.<br /><span class='importantText'>Spiderlings:</span> Spiderlings deal magic damage and take 20% reduced damage from multi-target abilities.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 4s",
+                "<span class='importantText'>Form:</span> Human"
+            ],
+            "lvl-upgrades": []
+        },
+        {
+            "form": "2",
+            "key": "R",
+            "name": "Human Form",
+            "img": "spider_form.png",
+            "description": "<span class='passiveActive'>Active:</span> Elise transforms into a powerful sorceress, sacrificing 25 Movement Speed in exchange for 235 attack range and access to mage abilities. All awoken Spiderlings are put into a dormant state.<br /><span class='importantText'>Spiderlings:</span> Spiderlings deal magic damage and take 25% reduced damage from multi-target abilities.",
+            "stats": [
+                "<span class='importantText'>Cost:</span> No cost",
+                "<span class='importantText'>Cooldown:</span> 4s",
+                "<span class='importantText'>Form:</span> Spider"
+            ],
+            "lvl-upgrades": []
         }
     ]
 }

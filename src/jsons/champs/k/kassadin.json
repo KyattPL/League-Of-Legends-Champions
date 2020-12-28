@@ -1,91 +1,103 @@
 {
     "lore": {
-        "biography": "",
-        "stories": []
+        "biography": "Kassadin started life as a lowly offcast, walking the harsh sands of the Great Sai alongside merchant caravans to draw predators away from their more valuable goods. He survived many of these treks across the desert, and began to serve less as bait, and more as a guide.<br />The foreign tongues that sought his talents, \"Kas sai a dyn?\" or \"whom does the desert know?\" often slurred their Shuriman, and so he became fondly known as Kassadin in the back alleys and markets of Bel’zhun. He spent many years exploring the ancient ruins of his homeland, making his employers exceedingly wealthy, but it wasn’t until a dig near Zirima that he found a treasure of his own—he fell in love with a woman from one of the desert tribes.<br /><br />With his wife and newborn daughter, Kassadin settled in a small village in the rocky canyons to the south. He was on the road often, his work sometimes requiring him to accompany particularly valuable relics to some faraway sponsor. But, no matter where his travels took him, Kassadin would always return with exciting tales from the world beyond.<br /><br />Journeying home from distant Piltover, Kassadin and his fellow caravaneers were watering their beasts at an oasis when they encountered the first terrified survivors stumbling out of the desert. They spoke of the disaster that had claimed their homes, as if the maw of the underworld itself had opened up to devour them. They had barely escaped with their lives.<br /><br />Fearing for his own family’s safety, Kassadin left the others behind, riding hard, driving his mount almost to exhaustion. When he finally reached the place where his village had once stood, he found only shifting sand and rubble. He clawed at the debris until his hands bled, screaming out his wife and daughter’s names, though no answer came. Days later, Kassadin’s companions caught up to him, now just a broken and empty man weeping beneath the scorching sun.<br /><br />They dragged him back to Zirima, but Kassadin would go no further. For years, he tried to drown his grief, reduced to little more than a vagrant… until word reached town of \"the Prophet.\"<br /><br />Whispers of unspeakable horrors that dwelt beneath the earth, and of sacrifices made in their name, chilled Kassadin to the bone. He knew well the legends of old Icathia, and the fate that befell that accursed place—if the Void had been deliberately drawn toward Shurima once more, then it had likely been the death of his entire village, and countless more besides. He also knew there were few, if any, who could stand against it.<br /><br />In that moment, Kassadin swore that he would avenge his wife and daughter, by destroying this insidious Prophet, and the source of his abyssal power. He was a man who had made his living by finding safe paths through the most dangerous places, and resolved to arm himself with the most arcane and esoteric weapons ever known in Valoran, fused with Zaunite ingenuity, and blessed by Ionian spirit-healers. He called in every favor he could, from scholars of antiquities to common smugglers, for their help in… acquiring what he sought. Many called him a madman, believing this the last time they would ever see their old friend alive—Kassadin merely thanked them for their concern, and bid them farewell. He would face the Void alone.<br /><br />Last of all, he stole the infamous Nether Blade of Horok, the sword that had slain a thousand deceivers in the latter days of the empire. He could feel the cold pull of oblivion in its edge, but no longer had any regard for his own mortality, and nothing of his old life left to lose.<br /><br />Disguised in the robes of a pilgrim, more than a decade since he had last set foot anywhere near that desolate land, Kassadin made his way into Icathia. He would go where no man was ever meant to walk.<br /><br />He would have his vengeance, even if it killed him.",
+        "stories": [
+            "WHOM DOES THE DESERT KNOW?<br />Shurima is dying. I do not think she will rise again.<br /><br />The emptiness that writhes in the very bones of my homeland is a malignant, unspeakable thing. It spreads. It devours. Its merest touch is death. A thousand deaths—a thousand, times a thousand, times a thousand. Perhaps once there were some who could stand against it and hope to prevail, but no longer.<br /><br />I walk here, alone, in the darkest places beneath the world, and I see it with my own eyes, through the finely crafted lenses of my helm. What is seen cannot be unseen, and what is known cannot be forgotten. Not here. I am weary, so very weary.<br /><br />Still, I walk.<br /><br />I can no longer feel the ground beneath me, nor the bare rock of the cavern walls, but so, too, am I spared the worst of the numbing winds that rise from the depths. I give thanks for that, for truly this is a chill beyond the desert’s night. I have sat upon the endless plain of the Sai Faraj beneath the first moon of winter, and yet never known anything like this. It is the deep cold of the Void, which the ancients—in their ignorance—might have named as their underworld, and the source of all evil in the mortal realm.<br /><br />The truth is worse, I think. The air itself feels wrong, and unnatural, throbbing with a fierce, purple un-light that pains the mind.<br /><br />And from the shadows that even my eyes cannot pierce, you come.<br /><br />Three. Four. Maybe five. It is difficult to say. A hundred and more of your kind have I faced, and slain. Your howls echo in the gloom, but I do not fear you, for you have already taken everything I ever had.<br /><br />My wife; my beloved. My daughter; our binsikhi, our little explorer. I call out their names, as I always do, to remind myself why it is that I fight. Then I raise my gauntlet.<br /><br />For all your teeth and your claws and your ravenous rage, you cannot defeat me. Either I will strike you down, back to the pit… or you will send me into the hereafter, and I will finally be at peace. I will be with them once more.<br /><br />Either way, I will win. No, you cannot defeat me, you who are shayatin, the beasts of the last infinity…<br /><br />In my other hand, I clutch the stone tightly. Its foreign magic has kept me alive this long—long enough to delve far, far beneath the wastelands of old Icathia. It holds your corruption at bay, though at what cost to my flesh and my spirit, I cannot guess, for this smallest of trinkets now thrums in time with my own heart. That fearful rhythm is not the pulse of life, or magic, or any other wholesome thing, but of oblivion itself. Of that much, I am certain.<br /><br />Back, beast. Stay back.<br /><br />The Nether Blade snaps out from my gauntleted wrist, into the air between us.<br /><br />Yes. Yes, you know this weapon, don’t you. You all remember it.<br /><br />Where only moments ago you hungered for my flesh, now you are wary. Now you hesitate. You circle. Those of you that have eyes cannot take them from the blade’s shimmering edge. Even you must know, I think, that this thing was not made for mortal hands, or mortal souls. It was made by clever magic, by men who were no longer men, and who now are nothing at all. Would you remember them too, I wonder?<br /><br />You screech and hiss, and stamp at the uneven ground. It would be easy to imagine that you hate all living things—but you do not hate us, I think. Not truly. You do not know what hate is.<br /><br />Hate is the fire that burned in the immortal hearts of the god-warriors when they saw your kind spilling out into the world. Hate was what drove them against you, again and again, though they knew it would almost certainly be their doom…<br /><br />Yes, this weapon remembers you. It remembers how to end you.<br /><br />Horok, it was, that struck the first telling blow against your masters. Great and mighty Horok of the Ascended Host, whose name shall live forever. He is the Finder of Hidden Ways, and the One Who Follows After. It was Horok who first dared to face you down here, in the darkness, away from the light of the sun that had given him his strength. It was Horok who first bore the Nether Blade unto the Void’s vile heart.<br /><br />And it was Horok who showed his brothers and sisters how to defeat the abyss.<br /><br />I am no Ascended hero of Shurima, no god-warrior to be remembered in the grand halls of that ruined empire. I am but a man. I am a grieving father, and a child of the sai in my own time. From the dust I came, and to the dust I shall return soon enough.<br /><br />But not yet. For now, I walk as Horok once walked, and I do this with his blade held out before—<br /><br />The closest of you lunges. Horned shell and razor-sharp talons graze my side as I twist away, breath rasping through the pipes in my mask. For a moment I am blind, trapped inside this meager armored suit of my own devising.<br /><br />Then I bring the Nether Blade up sharply, cleaving through what on any other creature could be called a neck.<br /><br />The sinuous body crashes down, and I feel the weapon’s aching hunger in my sword arm, in the sourness at the back of my tongue, like the aftertaste of a scream. Who will be next? Which of you will try?<br /><br />The desert knows Horok. His name shall live forever. Even when he was betrayed by the tyrant Ne’Zuk, to his death, none would claim the bladed gauntlet from Horok’s wrist. As far as the god-warriors had fallen, even they could not deny that these lands might be threatened by the Voidborn once again, in some unseen future, and this great weapon should be ready.<br /><br />This is my land. Such horrors walk here now, openly, and I cannot allow it. I will plunge this blade into the creeping nothingness beneath Shurima, as I have a dozen times before.<br /><br />Was it destiny? No. Nothing so noble as destiny. It was fated, I think, that I knew where this thing might be found. I led the echnebi treasure-seekers to Horok’s mausoleum on the banks of the Kahleek many years ago—back then I sought nothing more than their Piltovan gold, so that I might provide for my family. I gladly helped break open the tomb that had remained sealed for thousands of years. The Nether Blade was not the prize the echnebi sought, but they deemed it valuable all the same.<br /><br />Some in the tribes called me mercenary. Some called me a traitor. All I know is, in the strange days since then, Horok’s mausoleum has been utterly consumed by the enemy. Were it not for those treasure-seekers and the bounty they paid me, this weapon would now be lost. Like my people. My family.<br /><br />Unlike them, when the time came, the blade was something I could find again.<br /><br />Kas sai a dyn. Whom does the desert know?<br /><br />The desert does not know you, beast. You are not welcome here. You are lost in this ancient land of gods and men.<br /><br />But the desert knows my name, for that is my name.<br /><br />Not once have I lost my way. I know exactly where I am, and how many more paces it would be to the doom of all things. I will atone for what I have done, and that which I have not.<br /><br />And I will defy you until the end."
+        ]
     },
     "table": {
-        "name": "",
-        "image": "",
+        "name": "Kassadin",
+        "image": "kassadin.png",
         "general": {
-            "Title": "",
-            "Pronouns": "",
-            "Release date": "",
-            "Cost": "",
-            "Primary": "",
-            "Secondary": ""
+            "Title": "The Void Walker",
+            "Real Name": "Kassaiadyn",
+            "Pronouns": "He/Him",
+            "Release date": "August 7th, 2009",
+            "Cost": "3150 790",
+            "Primary": "Assassin",
+            "Secondary": "Mage"
         },
         "statistics": {
-            "HP": "",
-            "HPR": "",
-            "MP": "",
-            "MPR": "",
-            "MS": "",
-            "AD": "",
-            "AS": "",
-            "RNG": "",
-            "AR": "",
-            "MR": ""
+            "HP": "576 (+105)",
+            "HPR": "6 (+0.5)",
+            "MP": "397.6 (+87)",
+            "MPR": "6 (+0.8)",
+            "MS": "335",
+            "AD": "58.852 (+3.9)",
+            "AS": "0.64 (+3.7%)",
+            "RNG": "150",
+            "AR": "19 (+2.8)",
+            "MR": "30 (+0.5)"
         }
     },
     "abilities": [
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "Passive",
+            "name": "Void Stone",
+            "img": "void_stone.png",
+            "description": "<span class='passiveActive'>Innate:</span> Kassadin takes 15% reduced magic damage and ignores unit collision.",
+            "stats": [],
+            "lvl-upgrades": []
+        },
+        {
+            "key": "Q",
+            "name": "Null Sphere",
+            "img": "null_sphere.png",
+            "description": "<span class='passiveActive'>Active:</span> Kassadin fires an orb of void energy that deals magic damage and interrupts channels. The excess energy forms around himself, granting a shield that absorbs magic damage for 1.5 seconds.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 70 / 75 / 80 / 85 / 90 Mana",
+                "<span class='importantText'>Cooldown:</span> 11 / 10.5 / 10 / 9.5 / 9s",
+                "<span class='importantText'>Range:</span> 650"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage:</span> 60 / 85 / 110 / 135 / 160 <span class='apConversion'>(+70%)</span>",
+                "<span class='importantText'>Shield Strength:</span> 40 / 70 / 100 / 130 / 160 <span class='apConversion'>(+30%)</span>"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "W",
+            "name": "Nether Blade",
+            "img": "nether_blade.png",
+            "description": "<span class='passiveActive'>Passive:</span> Kassadin's melee attacks deal 20 <span class='apConversion'>(+10%)</span> bonus magic damage.<br /><span class='passiveActive'>Active:</span> Kassadin charges his Nether Blade, causing his next basic attack to deal bonus magic damage and restore his missing Mana (quintupled against champions).",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 1 Mana",
+                "<span class='importantText'>Cooldown:</span> 7s",
+                "<span class='importantText'>Range:</span> 200"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Mana Restored:</span> <span class='manaConversion'>(+4 / 4.5 / 5 / 5.5 / 6% missing)</span>",
+                "<span class='importantText'>Magic Damage:</span> 70 / 95 / 120 / 145 / 170 <span class='apConversion'>(+80%)</span>"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "E",
+            "name": "Force Pulse",
+            "img": "force_pulse.png",
+            "description": "<span class='passiveActive'>Active:</span> Kassadin draws energy from spells cast in his vicinity, gaining a charge whenever a spell is cast near him. Upon reaching 6 charges, Kassadin can use Force Pulse to deal magic damage and slow enemies for 1 second in a cone in front of him.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 60 / 65 / 70 / 75 / 80 Mana + 6 Charges",
+                "<span class='importantText'>Cooldown:</span> 5s",
+                "<span class='importantText'>Range:</span> 400"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage:</span> 80 / 105 / 130 / 155 / 180 <span class='apConversion'>(+80%)</span>",
+                "<span class='importantText'>Slow:</span> 50 / 60 / 70 / 80 / 90%"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "R",
+            "name": "Riftwalk",
+            "img": "riftwalk.png",
+            "description": "<span class='passiveActive'>Active:</span> Kassadin teleports to a nearby location dealing magic damage to surrounding enemy units. Each subsequent Riftwalk within the next 15 seconds doubles the Mana cost and deals additional magic damage per stack, stacking up to 4 times.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> 40 Mana",
+                "<span class='importantText'>Cooldown:</span> 5 / 3.5 / 2s",
+                "<span class='importantText'>Range:</span> 500",
+                "<span class='importantText'>Area of Effect:</span> 150"
             ],
             "lvl-upgrades": [
-                ""
-            ]
-        },
-        {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
-            "stats": [
-                ""
-            ],
-            "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage:</span> 80 / 100 / 120 <span class='manaConversion'>(+20% max)</span> <span class='apConversion'>(+40%)</span>",
+                "<span class='importantText'>Damage Per Stack:</span> 40 / 50 / 60 <span class='manaConversion'>(+10% max)</span> <span class='apConversion'>(+10%)</span>"
             ]
         }
     ]

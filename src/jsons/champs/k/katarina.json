@@ -1,91 +1,100 @@
 {
     "lore": {
-        "biography": "",
+        "biography": "Born to one of the most respected noble families of Noxus, Katarina Du Couteau found herself elevated above others from an early age. While her younger sister Cassiopeia took after their politically brilliant mother, Katarina was very much her father’s daughter, and the wily General Du Couteau pushed her to learn the way of the blade; to cut away the empire’s enemies not with reckless brutality, but deadly precision. He was a harsh teacher with many pupils, and notoriously difficult to impress.<br />So it was that Katarina’s childhood—if it can be called such—had little room for kindness or rest. She spent every waking moment honing herself into the ultimate weapon, testing her endurance, her dexterity, her tolerance for pain. She stole poisons from the city’s least reputable apothecaries, testing their efficacy in tiny increments upon herself, gradually building her resistance even as she catalogued their effects. She scaled the tallest towers in the dead of night, unseen by anyone.<br /><br />She yearned to do her part for Noxus. She yearned for the opportunity to demonstrate her hidden strengths in service of the empire, and the throne.<br /><br />Her first mark came straight from her father, camped with his warbands on the eve of one of the military’s innumerable westward invasions… She was to assassinate a line officer of the opposing army, a low-born wretch by the name of Demetrius.<br /><br />Katarina was livid. She hadn’t trained her entire life to have her talents wasted on some dungheel barely skilled enough to swing a sword! He simply wouldn’t do. Instead of her assigned target, Katarina stole into the enemy camp and slit the enemy commander’s throat as he slept. It was a flawless execution. It would bring a swift victory, and glory to Noxus. It would make her father proud.<br /><br />At dawn, his face daubed with ashes, the vengeful hero Demetrius led a berzerk charge into her father’s encampment. Dozens of Noxian soldiers were slaughtered, along with the general’s personal retinue. Katarina’s father himself barely escaped with his life.<br /><br />He was furious beyond words, refusing even to look his daughter in the eye. She had shamed him, and their family name. The greatest assassins do not seek recognition or glory, he reminded her. They do not expect to occupy a place of honor at their master’s right hand.<br /><br />Overwhelmed, Katarina struck out into the wilderness, alone. She would complete her original mission. Demetrius would pay with his life. Even so, her mind swam. Could she ever forgive herself? How had she been so foolish?<br /><br />She was so distracted, she didn’t see her attacker until he had nearly taken her eye out.<br /><br />For Katarina’s failure, General Du Couteau had sent another of his protégés after her; a nameless whelp dragged up from one of the lesser assassins’ guilds. But even with blood streaming down her face, the years of rigorous training kicked in, and her blades were in her hands in an instant.<br /><br />Six hours later, she tossed Demetrius’s severed head at her father’s feet.<br /><br />She told the general she had considered taking his head instead, but eventually decided—as much as she hated to admit it—that he had done the right thing in ordering her death. She had failed. Not just as an assassin, or as a daughter, but as a Noxian.<br /><br />And failure must have its consequences. She ran her fingers along the raw, deep gash over her left eye, and thought of the price others had paid for her arrogance.<br /><br />She knew she had lost her father’s favor, and could never regain it. He would raise others in her place, simply to spite her. Still, she vowed to redeem herself, no matter the cost—to rededicate her talents to the empire, and to become the sinister weapon she always intended to be.0000000",
         "stories": []
     },
     "table": {
-        "name": "",
-        "image": "",
+        "name": "Katarina",
+        "image": "katarina.png",
         "general": {
-            "Title": "",
-            "Pronouns": "",
-            "Release date": "",
-            "Cost": "",
-            "Primary": "",
-            "Secondary": ""
+            "Title": "The Sinister Blade",
+            "Real Name": "Katarina Du Couteau",
+            "Pronouns": "She/Her",
+            "Release date": "September 19th, 2009",
+            "Cost": "3150 790",
+            "Primary": "Assassin",
+            "Secondary": "Mage"
         },
         "statistics": {
-            "HP": "",
-            "HPR": "",
-            "MP": "",
-            "MPR": "",
-            "MS": "",
-            "AD": "",
-            "AS": "",
-            "RNG": "",
-            "AR": "",
-            "MR": ""
+            "HP": "602 (+94)",
+            "HPR": "7.5 (+0.7)",
+            "MS": "340",
+            "AD": "58 (+3.2)",
+            "AS": "0.658 (+2.74%)",
+            "RNG": "125",
+            "AR": "27.88 (+3.5)",
+            "MR": "32.1 (+1.25)"
         }
     },
     "abilities": [
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "Passive",
+            "name": "Voracity",
+            "img": "voracity.png",
+            "description": "<span class='passiveActive'>Innate:</span> Whenever an enemy champion dies that Katarina has damaged in the last 3 seconds, her ability cooldowns are reduced by 15 seconds. If Katarina picks up a <span style='color: #d4d422'>Dagger</span>, she uses it to slash through all nearby enemies, dealing magic damage and applying on-hit effects.",
             "stats": [
-                ""
+                "<span class='importantText'>Area of Effect:</span> 340"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage:</span> <abbr title='68/72/77/82/89/96/103/112/121/131/142/154/166/180/194/208/224/240'>68 - 240 (based on level)</abbr> <span class='adConversion'>(+75% bonus)</span> <span class='apConversion'><abbr title='11 every 5 levels'>(+55 / 66 / 77 / 88%)</abbr></span>"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "Q",
+            "name": "Bouncing Blades",
+            "img": "bouncing_blades.png",
+            "description": "<span class='passiveActive'>Active:</span> Katarina throws a <span style='color: #d4d422'>Dagger</span>, dealing magic damage to the target and 2 nearby enemies. The dagger then ricochets onto the ground behind the primary target.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> No Cost",
+                "<span class='importantText'>Cooldown:</span> 11 / 10 / 9 / 8 / 7s",
+                "<span class='importantText'>Range:</span> 625",
+                "<span class='importantText'>Area of Effect:</span> 625"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage:</span> 75 / 105 / 135 / 165 / 195 <span class='apConversion'>(+30%)</span>"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "W",
+            "name": "Preparation",
+            "img": "preparation.png",
+            "description": "<span class='passiveActive'>Active:</span> Katarina tosses a <span style='color: #d4d422'>Dagger</span> into the air and gains decaying Movement Speed over 1.25 seconds.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> No Cost",
+                "<span class='importantText'>Cooldown:</span> 15 / 14 / 13 / 12 / 11s"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Movement Speed:</span> 50 / 60 / 70 / 80 / 90%"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "E",
+            "name": "Shunpo",
+            "img": "shunpo.png",
+            "description": "<span class='passiveActive'>Active:</span> Katarina dashes in the blink of an eye to the target ally, enemy or <span style='color: #d4d422'>Dagger</span>. If it is an enemy, Katarina deals magic damage - otherwise, she strikes the nearest enemy in range, applying on-hit effects in both cases. Picking up a <span style='color: #d4d422'>Dagger</span> will reduce <span class='importantText'>Shunpo</span>'s cooldown.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> No Cost",
+                "<span class='importantText'>Cooldown:</span> 14 / 12.5 / 11 / 9.5 / 8s",
+                "<span class='importantText'>Range:</span> 725"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage:</span> 15 / 30 / 45 / 60 / 75 <span class='adConversion'>(+50% total)</span> <span class='apConversion'>(+25%)</span>",
+                "<span class='importantText'>Shunpo Cooldown Refund:</span> <abbr title='Levels 1 / 6 / 11 / 16'>78 / 84 / 90 / 96% (based on level)</abbr>"
             ]
         },
         {
-            "key": "",
-            "name": "",
-            "img": "",
-            "description": "",
+            "key": "R",
+            "name": "Death Lotus",
+            "img": "death_lotus.png",
+            "description": "<span class='passiveActive'>Active:</span> Katarina becomes a flurry of blades, rapidly throwing knives at the three nearest enemy champions, dealing magic damage and <span class='adConversion'>(+15% bonus)</span> <span class='asConversion'>(+9.9% Attack Speed)</span> physical damage per knife, over 2.5 seconds. Applies Grevious Wounds to all enemies struck, reducing their healing and regeneration by 60%.",
             "stats": [
-                ""
+                "<span class='importantText'>Cost:</span> No Cost",
+                "<span class='importantText'>Cooldown:</span> 90 / 60 / 45s",
+                "<span class='importantText'>Range:</span> 550"
             ],
             "lvl-upgrades": [
-                ""
+                "<span class='importantText'>Magic Damage per Dagger:</span> 25 / 37.5 / 50 <span class='apConversion'>(+19%)</span>",
+                "<span class='importantText'>Max Mixed Damage:</span> 375 / 562.5 / 750 <span class='apConversion'>(+285%)</span> <span class='asConversion'>(+148.5% Attack Speed)</span> <span class='adConversion'>(+225% bonus)</span>"
             ]
         }
     ]

@@ -4,7 +4,7 @@ import '../styles/footer.css';
 function Footer() {
     return (
         <footer>
-            <h1>Siema stopka here</h1>
+            <h1>A footer</h1>
         </footer>
     )
 }
